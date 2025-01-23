@@ -55,12 +55,8 @@ func groupByColumn(records []map[string]string, columnName string) map[string]fl
 func createNodes(grouped map[string]float64, level int) []Node {
 	var nodes []Node
 	for label, totalFlow := range grouped {
-		node := Node{
-			Label:     label,
-			TotalFlow: totalFlow,
-			Level:     level,
-		}
-		nodes = append(nodes, node)
+		node := NewNode(label, totalFlow, level)
+		nodes = append(nodes, *node)
 	}
 	return nodes
 }

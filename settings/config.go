@@ -1,6 +1,13 @@
 package settings
 
-const (
+var (
 	CHART_WIDTH  = 1000
 	CHART_HEIGHT = 800
+	NODE_WIDTH = 50
+)
+
+const (
+	DEFAULT_CHART_WIDTH  = 1000
+	DEFAULT_CHART_HEIGHT = 800
+	DEFAULT_NODE_WIDTH   = 50
 )

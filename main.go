@@ -18,7 +18,9 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-
+	for _, level := range catsLevels {
+		level.SetNodePositions(len(catsLevels))
+	}
 	for i, level := range catsLevels {
 		fmt.Printf("Level %d: %+v\n", i, level)
 	}
