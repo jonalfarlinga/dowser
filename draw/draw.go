@@ -11,7 +11,7 @@ import (
 func SetFlowsPositions(flows []data.Flow, nodes []data.Node) error {
 	err := fmt.Errorf("Must SetNodePositions before SetFlowsPositions")
 	for i := range nodes {
-		if nodes[i].GetPos().Y != 0 {
+		if nodes[i].GetPosition().Y != 0 {
 			err = nil
 			break
 		}
@@ -35,39 +35,28 @@ func SetFlowsPositions(flows []data.Flow, nodes []data.Node) error {
 
 		heightS := float64(source.GetHeight()) / source.TotalFlow * flows[i].Value
 		heightT := float64(target.GetHeight()) / target.TotalFlow * flows[i].Value
-		width := target.GetPos().X - source.GetPos().X
 
 		flows[i].SetPoint(
 			data.TOPL,
-			source.GetPos().X+settings.NODE_WIDTH,
-			source.GetPos().Y+sourceY[source.Label],
-		)
-		flows[i].SetPoint(
-			data.CONTROL1,
-			(source.GetPos().X + width/3),
-			source.GetPos().Y+sourceY[source.Label],
+			source.GetPosition().X+settings.NODE_WIDTH,
+			source.GetPosition().Y+sourceY[source.Label],
 		)
 		sourceY[source.Label] += int(heightS)
 		flows[i].SetPoint(
 			data.BOTL,
-			source.GetPos().X+settings.NODE_WIDTH,
-			source.GetPos().Y+sourceY[source.Label],
+			source.GetPosition().X+settings.NODE_WIDTH,
+			source.GetPosition().Y+sourceY[source.Label],
 		)
 		flows[i].SetPoint(
 			data.TOPR,
-			target.GetPos().X,
-			target.GetPos().Y+targetY[target.Label],
+			target.GetPosition().X,
+			target.GetPosition().Y+targetY[target.Label],
 		)
 		targetY[target.Label] += int(heightT)
 		flows[i].SetPoint(
 			data.BOTR,
-			target.GetPos().X,
-			target.GetPos().Y+targetY[target.Label],
-		)
-		flows[i].SetPoint(
-			data.CONTROL2,
-			(target.GetPos().X - width/3),
-			target.GetPos().Y+targetY[target.Label],
+			target.GetPosition().X,
+			target.GetPosition().Y+targetY[target.Label],
 		)
 	}
 	return nil
@@ -78,19 +67,19 @@ func getFlowsPaths(flows []data.Flow) []string {
 	for i := range flows {
 		width := flows[i].Topright.X - flows[i].Topleft.X
 		control1T := data.Point{
-			X: flows[i].Topleft.X + width/3,
+			X: flows[i].Topleft.X + width/2,
 			Y: flows[i].Topleft.Y,
 		}
 		control2T := data.Point{
-			X: flows[i].Topright.X - width/3,
+			X: flows[i].Topright.X - width/2,
 			Y: flows[i].Topright.Y,
 		}
 		control2B := data.Point{
-			X: flows[i].Bottomright.X - width/3,
+			X: flows[i].Bottomright.X - width/2,
 			Y: flows[i].Bottomright.Y,
 		}
 		control1B := data.Point{
-			X: flows[i].Bottomleft.X + width/3,
+			X: flows[i].Bottomleft.X + width/2,
 			Y: flows[i].Bottomleft.Y,
 		}
 		f = append(
@@ -116,10 +105,10 @@ func getNodesPaths(nodes []data.Node) []string {
 		n = append(
 			n, fmt.Sprintf(
 				"M %d,%d L %d,%d L %d,%d L %d,%d Z",
-				nodes[i].GetPos().X, nodes[i].GetPos().Y,
-				nodes[i].GetPos().X, nodes[i].GetPos().Y+nodes[i].GetHeight(),
-				nodes[i].GetPos().X+settings.NODE_WIDTH, nodes[i].GetPos().Y+nodes[i].GetHeight(),
-				nodes[i].GetPos().X+settings.NODE_WIDTH, nodes[i].GetPos().Y,
+				nodes[i].GetPosition().X, nodes[i].GetPosition().Y,
+				nodes[i].GetPosition().X, nodes[i].GetPosition().Y+nodes[i].GetHeight(),
+				nodes[i].GetPosition().X+settings.NODE_WIDTH, nodes[i].GetPosition().Y+nodes[i].GetHeight(),
+				nodes[i].GetPosition().X+settings.NODE_WIDTH, nodes[i].GetPosition().Y,
 			),
 		)
 	}
@@ -131,7 +120,7 @@ func DrawChart(flows []data.Flow, nodes []data.Node) string {
 	flowPaths := getFlowsPaths(flows)
 	for i := range flowPaths {
 		components += fmt.Sprintf(
-			"<path d=\"%s\" fill=\"%s\" fill-opacity=\"0.5\" stroke=\"black\" />\n",
+			"<path d=\"%s\" fill=\"%s\" fill-opacity=\"0.5\" />\n",
 			flowPaths[i], getFlowColor(flowPaths[i]),
 		)
 	}
@@ -139,7 +128,7 @@ func DrawChart(flows []data.Flow, nodes []data.Node) string {
 	nodesPaths := getNodesPaths(nodes)
 	for i := range nodesPaths {
 		components += fmt.Sprintf(
-			"<path d=\"%s\" fill=\"%s\" fill-opacity=\"1.0\" stroke=\"black\" />\n",
+			"<path d=\"%s\" fill=\"%s\" fill-opacity=\"1.0\" />\n",
 			nodesPaths[i], getNodeColor(nodesPaths[i]),
 		)
 	}
@@ -186,7 +175,7 @@ func getNodeColor(path string) string {
 	factor := y * 100 / settings.CHART_HEIGHT
 	return fmt.Sprintf(
 		"#%02x%02x%02x",
-		180,
-		factor * 2,
-		factor)
+		factor,
+		factor*2,
+		120)
 }

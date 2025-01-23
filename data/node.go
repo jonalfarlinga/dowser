@@ -26,7 +26,7 @@ func (n *Node) SetPosition(x, y int) {
 	n.point = Point{x, y}
 }
 
-func (n *Node) GetPos() Point {
+func (n *Node) GetPosition() Point {
 	return n.point
 }
 

@@ -8,8 +8,6 @@ type Flow struct {
 	Bottomleft  Point
 	Topright    Point
 	Bottomright Point
-	Control1    Point
-	Control2    Point
 }
 
 const (
@@ -17,8 +15,6 @@ const (
 	TOPR
 	BOTL
 	BOTR
-	CONTROL1
-	CONTROL2
 )
 
 type Point struct {
@@ -36,10 +32,6 @@ func (f *Flow) SetPoint(p, x, y int) {
 		f.Bottomleft = Point{x, y}
 	case BOTR:
 		f.Bottomright = Point{x, y}
-	case CONTROL1:
-		f.Control1 = Point{x, y}
-	case CONTROL2:
-		f.Control2 = Point{x, y}
 	}
 }
 

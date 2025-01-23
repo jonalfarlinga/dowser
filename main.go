@@ -44,14 +44,5 @@ func main() {
 		log.Fatalf("Error setting flows positions: %v", err)
 	}
 
-	for i := range catsLevels {
-        for j := range catsLevels[i].Nodes {
-            log.Printf("Node %d: %s\n", j, catsLevels[i].Nodes[j].Label)
-        }
-	}
-    for i := range flows {
-        log.Printf("Flow %d: %s-%s-%f\n", i, flows[i].Source, flows[i].Target, flows[i].Value)
-    }
-
 	log.Print(draw.DrawChart(flows, nodes))
 }

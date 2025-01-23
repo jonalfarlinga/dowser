@@ -2,7 +2,6 @@ package data
 
 import (
 	"encoding/csv"
-	"fmt"
 	"os"
 	"strconv"
 )
@@ -32,25 +31,11 @@ func LoadData(filePath string) error {
 		row := make(map[string]string)
 		for i, header := range headers {
 			row[header] = record[i]
-			fmt.Println(record[i])
 		}
 		records = append(records, row)
 	}
 	Data = records
 	return nil
-}
-
-func groupByColumn(records []map[string]string, columnName string) map[string]float64 {
-	grouped := make(map[string]float64)
-	for _, record := range records {
-		key := record[columnName]
-		value, err := strconv.ParseFloat(record["gals"], 64)
-		if err != nil {
-			continue
-		}
-		grouped[key] += value
-	}
-	return grouped
 }
 
 func ConsolidateRecords(records []map[string]string, columns []string) []map[string]string {
@@ -86,6 +71,19 @@ func ConsolidateRecords(records []map[string]string, columns []string) []map[str
 	return result
 }
 
+func groupByColumn(records []map[string]string, columnName string) map[string]float64 {
+	grouped := make(map[string]float64)
+	for _, record := range records {
+		key := record[columnName]
+		value, err := strconv.ParseFloat(record["gals"], 64)
+		if err != nil {
+			continue
+		}
+		grouped[key] += value
+	}
+	return grouped
+}
+
 func createNodes(grouped map[string]float64, level int) []Node {
 	var nodes []Node
 	for label, totalFlow := range grouped {
@@ -103,7 +101,6 @@ func GetLevels() ([]CategoryLevel, error) {
 	levels = append(levels, *NewCategoryLevel(0))
 	for _, node := range nodes {
 		levels[len(levels)-1].AddNode(node)
-		fmt.Printf("Node: %+v\n", node)
 	}
 
 	grouped = groupByColumn(Data, "Use")
@@ -111,7 +108,6 @@ func GetLevels() ([]CategoryLevel, error) {
 	levels = append(levels, *NewCategoryLevel(1))
 	for _, node := range nodes {
 		levels[len(levels)-1].AddNode(node)
-		fmt.Printf("Node: %+v\n", node)
 	}
 
 	return levels, nil
@@ -132,7 +128,6 @@ func GetFlows() ([]Flow, error) {
 			Value:  value,
 		}
 		flows = append(flows, flow)
-		fmt.Printf("Flow: %+v\n", flow)
 	}
 	return flows, nil
 }
