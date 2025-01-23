@@ -1,0 +1,1664 @@
+2025/01/23 12:13:24 Node 0: Jackson
+2025/01/23 12:13:24 Node 1: Freeman Artesian
+2025/01/23 12:13:24 Node 2: City Water
+2025/01/23 12:13:24 Node 3: River Water
+2025/01/23 12:13:24 Node 4: Freeman Ranch
+2025/01/23 12:13:24 Node 5: Print Shop
+2025/01/23 12:13:24 Node 6: Grady Early
+2025/01/23 12:13:24 Node 7: Boiler Plant
+2025/01/23 12:13:24 Node 0: Utilities
+2025/01/23 12:13:24 Node 1: Irrigation
+2025/01/23 12:13:24 Node 2: Domestic
+2025/01/23 12:13:24 Node 3: Unmetered
+2025/01/23 12:13:24 Node 4: Spillage
+2025/01/23 12:13:24 Flow 0: Jackson-Domestic-%!d(float64=0)
+2025/01/23 12:13:24 Flow 1: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 2: City Water-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 3: Jackson-Irrigation-%!d(float64=153500)
+2025/01/23 12:13:24 Flow 4: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 5: Jackson-Domestic-%!d(float64=310003.41)
+2025/01/23 12:13:24 Flow 6: Jackson-Irrigation-%!d(float64=4200)
+2025/01/23 12:13:24 Flow 7: Jackson-Irrigation-%!d(float64=200)
+2025/01/23 12:13:24 Flow 8: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 9: City Water-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 10: River Water-Irrigation-%!d(float64=602220)
+2025/01/23 12:13:24 Flow 11: Jackson-Irrigation-%!d(float64=39800)
+2025/01/23 12:13:24 Flow 12: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 13: City Water-Irrigation-%!d(float64=129893)
+2025/01/23 12:13:24 Flow 14: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 15: Jackson-Domestic-%!d(float64=320205.06)
+2025/01/23 12:13:24 Flow 16: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 17: Jackson-Domestic-%!d(float64=354037.84)
+2025/01/23 12:13:24 Flow 18: Jackson-Domestic-%!d(float64=43570.71)
+2025/01/23 12:13:24 Flow 19: Jackson-Domestic-%!d(float64=308445.56)
+2025/01/23 12:13:24 Flow 20: Jackson-Domestic-%!d(float64=380022.81)
+2025/01/23 12:13:24 Flow 21: City Water-Irrigation-%!d(float64=10300)
+2025/01/23 12:13:24 Flow 22: City Water-Irrigation-%!d(float64=2)
+2025/01/23 12:13:24 Flow 23: City Water-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 24: City Water-Irrigation-%!d(float64=274449)
+2025/01/23 12:13:24 Flow 25: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 26: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 27: Jackson-Domestic-%!d(float64=107000)
+2025/01/23 12:13:24 Flow 28: Jackson-Domestic-%!d(float64=140660)
+2025/01/23 12:13:24 Flow 29: Jackson-Domestic-%!d(float64=0)
+2025/01/23 12:13:24 Flow 30: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 31: Jackson-Irrigation-%!d(float64=23200)
+2025/01/23 12:13:24 Flow 32: Jackson-Domestic-%!d(float64=51700)
+2025/01/23 12:13:24 Flow 33: Jackson-Utilities-%!d(float64=6.433371e+06)
+2025/01/23 12:13:24 Flow 34: Jackson-Domestic-%!d(float64=0)
+2025/01/23 12:13:24 Flow 35: City Water-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 36: Jackson-Irrigation-%!d(float64=31300)
+2025/01/23 12:13:24 Flow 37: Jackson-Irrigation-%!d(float64=100)
+2025/01/23 12:13:24 Flow 38: Jackson-Irrigation-%!d(float64=229700)
+2025/01/23 12:13:24 Flow 39: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 40: City Water-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 41: Jackson-Utilities-%!d(float64=1.10144e+06)
+2025/01/23 12:13:24 Flow 42: Jackson-Domestic-%!d(float64=0)
+2025/01/23 12:13:24 Flow 43: Jackson-Irrigation-%!d(float64=31600)
+2025/01/23 12:13:24 Flow 44: Jackson-Domestic-%!d(float64=5228.29)
+2025/01/23 12:13:24 Flow 45: Jackson-Domestic-%!d(float64=224946.94)
+2025/01/23 12:13:24 Flow 46: Jackson-Domestic-%!d(float64=0)
+2025/01/23 12:13:24 Flow 47: Jackson-Domestic-%!d(float64=0)
+2025/01/23 12:13:24 Flow 48: Jackson-Domestic-%!d(float64=26022)
+2025/01/23 12:13:24 Flow 49: Jackson-Irrigation-%!d(float64=78500)
+2025/01/23 12:13:24 Flow 50: Jackson-Irrigation-%!d(float64=60600)
+2025/01/23 12:13:24 Flow 51: Jackson-Domestic-%!d(float64=44435.83)
+2025/01/23 12:13:24 Flow 52: Jackson-Domestic-%!d(float64=282000)
+2025/01/23 12:13:24 Flow 53: Freeman Ranch-Domestic-%!d(float64=11970)
+2025/01/23 12:13:24 Flow 54: Freeman Artesian-Irrigation-%!d(float64=6.716440812e+06)
+2025/01/23 12:13:24 Flow 55: Jackson-Domestic-%!d(float64=437573.1)
+2025/01/23 12:13:24 Flow 56: Jackson-Irrigation-%!d(float64=5400)
+2025/01/23 12:13:24 Flow 57: Jackson-Domestic-%!d(float64=1.57823225e+06)
+2025/01/23 12:13:24 Flow 58: Jackson-Irrigation-%!d(float64=26200)
+2025/01/23 12:13:24 Flow 59: Jackson-Irrigation-%!d(float64=42700)
+2025/01/23 12:13:24 Flow 60: Jackson-Irrigation-%!d(float64=26700)
+2025/01/23 12:13:24 Flow 61: Jackson-Domestic-%!d(float64=918738)
+2025/01/23 12:13:24 Flow 62: City Water-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 63: Jackson-Irrigation-%!d(float64=299700)
+2025/01/23 12:13:24 Flow 64: City Water-Irrigation-%!d(float64=4315)
+2025/01/23 12:13:24 Flow 65: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 66: Jackson-Irrigation-%!d(float64=95300)
+2025/01/23 12:13:24 Flow 67: Jackson-Irrigation-%!d(float64=53700)
+2025/01/23 12:13:24 Flow 68: Jackson-Irrigation-%!d(float64=19000)
+2025/01/23 12:13:24 Flow 69: City Water-Irrigation-%!d(float64=15061)
+2025/01/23 12:13:24 Flow 70: Jackson-Domestic-%!d(float64=335459.19)
+2025/01/23 12:13:24 Flow 71: Jackson-Irrigation-%!d(float64=1000)
+2025/01/23 12:13:24 Flow 72: Jackson-Irrigation-%!d(float64=58300)
+2025/01/23 12:13:24 Flow 73: City Water-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 74: City Water-Irrigation-%!d(float64=309100)
+2025/01/23 12:13:24 Flow 75: City Water-Irrigation-%!d(float64=39812)
+2025/01/23 12:13:24 Flow 76: Jackson-Domestic-%!d(float64=0)
+2025/01/23 12:13:24 Flow 77: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 78: Jackson-Domestic-%!d(float64=16200)
+2025/01/23 12:13:24 Flow 79: Jackson-Irrigation-%!d(float64=66000)
+2025/01/23 12:13:24 Flow 80: Jackson-Domestic-%!d(float64=368809.91)
+2025/01/23 12:13:24 Flow 81: Jackson-Domestic-%!d(float64=70700)
+2025/01/23 12:13:24 Flow 82: Jackson-Irrigation-%!d(float64=8300)
+2025/01/23 12:13:24 Flow 83: City Water-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 84: Jackson-Irrigation-%!d(float64=16634)
+2025/01/23 12:13:24 Flow 85: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 86: Jackson-Irrigation-%!d(float64=228992)
+2025/01/23 12:13:24 Flow 87: Jackson-Domestic-%!d(float64=27700)
+2025/01/23 12:13:24 Flow 88: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 89: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 90: Jackson-Domestic-%!d(float64=41853.93)
+2025/01/23 12:13:24 Flow 91: Jackson-Irrigation-%!d(float64=49100)
+2025/01/23 12:13:24 Flow 92: City Water-Domestic-%!d(float64=244274.244)
+2025/01/23 12:13:24 Flow 93: Jackson-Domestic-%!d(float64=0)
+2025/01/23 12:13:24 Flow 94: Jackson-Irrigation-%!d(float64=9900)
+2025/01/23 12:13:24 Flow 95: Jackson-Irrigation-%!d(float64=227000)
+2025/01/23 12:13:24 Flow 96: Jackson-Domestic-%!d(float64=199948.06)
+2025/01/23 12:13:24 Flow 97: City Water-Irrigation-%!d(float64=47200)
+2025/01/23 12:13:24 Flow 98: Jackson-Irrigation-%!d(float64=184000)
+2025/01/23 12:13:24 Flow 99: Jackson-Irrigation-%!d(float64=26400)
+2025/01/23 12:13:24 Flow 100: Jackson-Domestic-%!d(float64=64223)
+2025/01/23 12:13:24 Flow 101: Jackson-Domestic-%!d(float64=1275)
+2025/01/23 12:13:24 Flow 102: Jackson-Domestic-%!d(float64=919975)
+2025/01/23 12:13:24 Flow 103: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 104: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 105: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 106: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 107: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 108: Jackson-Irrigation-%!d(float64=243600)
+2025/01/23 12:13:24 Flow 109: Jackson-Utilities-%!d(float64=985048)
+2025/01/23 12:13:24 Flow 110: Jackson-Utilities-%!d(float64=5.964094e+06)
+2025/01/23 12:13:24 Flow 111: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 112: City Water-Irrigation-%!d(float64=3)
+2025/01/23 12:13:24 Flow 113: Jackson-Irrigation-%!d(float64=2500)
+2025/01/23 12:13:24 Flow 114: Jackson-Domestic-%!d(float64=407926.53)
+2025/01/23 12:13:24 Flow 115: Jackson-Irrigation-%!d(float64=66600)
+2025/01/23 12:13:24 Flow 116: Jackson-Domestic-%!d(float64=2.05616e+06)
+2025/01/23 12:13:24 Flow 117: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 118: Jackson-Domestic-%!d(float64=85362.27)
+2025/01/23 12:13:24 Flow 119: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 120: City Water-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 121: City Water-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 122: City Water-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 123: Jackson-Domestic-%!d(float64=6448.27)
+2025/01/23 12:13:24 Flow 124: City Water-Irrigation-%!d(float64=11600)
+2025/01/23 12:13:24 Flow 125: Jackson-Irrigation-%!d(float64=88200)
+2025/01/23 12:13:24 Flow 126: City Water-Irrigation-%!d(float64=414490)
+2025/01/23 12:13:24 Flow 127: Jackson-Irrigation-%!d(float64=9500)
+2025/01/23 12:13:24 Flow 128: Jackson-Irrigation-%!d(float64=82400)
+2025/01/23 12:13:24 Flow 129: City Water-Irrigation-%!d(float64=15300)
+2025/01/23 12:13:24 Flow 130: City Water-Irrigation-%!d(float64=431765)
+2025/01/23 12:13:24 Flow 131: Jackson-Irrigation-%!d(float64=42900)
+2025/01/23 12:13:24 Flow 132: Jackson-Unmetered-%!d(float64=840660.04)
+2025/01/23 12:13:24 Flow 133: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 134: Jackson-Irrigation-%!d(float64=605700)
+2025/01/23 12:13:24 Flow 135: Jackson-Irrigation-%!d(float64=0)
+2025/01/23 12:13:24 Flow 136: Jackson-Utilities-%!d(float64=1.422675e+06)
+2025/01/23 12:13:24 Flow 137: Jackson-Domestic-%!d(float64=329423)
+2025/01/23 12:13:24 Flow 138: Jackson-Irrigation-%!d(float64=177000)
+2025/01/23 12:13:24 Flow 139: Boiler Plant-Spillage-%!d(float64=200)
+2025/01/23 12:13:24 Flow 140: Grady Early-Spillage-%!d(float64=200)
+2025/01/23 12:13:24 Flow 141: Print Shop-Spillage-%!d(float64=310)
+2025/01/23 12:13:24 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,0 C 350,0 650,567 950,567 L 950,567 C 650,567 350,0 50,0 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,0 C 350,0 650,318 950,318 L 950,318 C 650,318 350,0 50,0 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,318 950,318 L 950,318 C 650,318 350,747 50,747 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,0 C 350,0 650,318 950,318 L 950,321 C 650,321 350,3 50,3 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,3 C 350,3 650,321 950,321 L 950,321 C 650,321 350,3 50,3 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,3 C 350,3 650,567 950,567 L 950,573 C 650,573 350,9 50,9 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,321 950,321 L 950,321 C 650,321 350,9 50,9 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,321 950,321 L 950,321 C 650,321 350,9 50,9 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,321 950,321 L 950,321 C 650,321 350,9 50,9 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,321 950,321 L 950,321 C 650,321 350,747 50,747 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,321 950,321 L 950,333 C 650,333 350,798 50,798 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,333 950,333 L 950,333 C 650,333 350,9 50,9 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,333 950,333 L 950,333 C 650,333 350,9 50,9 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,333 950,333 L 950,335 C 650,335 350,749 50,749 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,335 950,335 L 950,335 C 650,335 350,9 50,9 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,573 950,573 L 950,579 C 650,579 350,15 50,15 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,15 C 350,15 650,335 950,335 L 950,335 C 650,335 350,15 50,15 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,15 C 350,15 650,579 950,579 L 950,586 C 650,586 350,22 50,22 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,22 C 350,22 650,586 950,586 L 950,586 C 650,586 350,22 50,22 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,22 C 350,22 650,586 950,586 L 950,592 C 650,592 350,28 50,28 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,28 C 350,28 650,592 950,592 L 950,599 C 650,599 350,35 50,35 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,749 C 350,749 650,335 950,335 L 950,335 C 650,335 350,749 50,749 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,749 C 350,749 650,335 950,335 L 950,335 C 650,335 350,749 50,749 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,749 C 350,749 650,335 950,335 L 950,335 C 650,335 350,749 50,749 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,749 C 350,749 650,335 950,335 L 950,340 C 650,340 350,754 50,754 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,35 C 350,35 650,340 950,340 L 950,340 C 650,340 350,35 50,35 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,35 C 350,35 650,340 950,340 L 950,340 C 650,340 350,35 50,35 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,35 C 350,35 650,599 950,599 L 950,601 C 650,601 350,37 50,37 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,37 C 350,37 650,601 950,601 L 950,603 C 650,603 350,39 50,39 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,39 C 350,39 650,603 950,603 L 950,603 C 650,603 350,39 50,39 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,39 C 350,39 650,340 950,340 L 950,340 C 650,340 350,39 50,39 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,39 C 350,39 650,340 950,340 L 950,340 C 650,340 350,39 50,39 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,39 C 350,39 650,603 950,603 L 950,604 C 650,604 350,40 50,40 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,40 C 350,40 650,0 950,0 L 950,128 C 650,128 350,168 50,168 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,168 C 350,168 650,604 950,604 L 950,604 C 650,604 350,168 50,168 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,340 950,340 L 950,340 C 650,340 350,754 50,754 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,168 C 350,168 650,340 950,340 L 950,340 C 650,340 350,168 50,168 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,168 C 350,168 650,340 950,340 L 950,340 C 650,340 350,168 50,168 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,168 C 350,168 650,340 950,340 L 950,344 C 650,344 350,172 50,172 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,172 C 350,172 650,344 950,344 L 950,344 C 650,344 350,172 50,172 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,344 950,344 L 950,344 C 650,344 350,754 50,754 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,172 C 350,172 650,128 950,128 L 950,150 C 650,150 350,194 50,194 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,194 C 350,194 650,604 950,604 L 950,604 C 650,604 350,194 50,194 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,194 C 350,194 650,344 950,344 L 950,344 C 650,344 350,194 50,194 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,194 C 350,194 650,604 950,604 L 950,604 C 650,604 350,194 50,194 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,194 C 350,194 650,604 950,604 L 950,608 C 650,608 350,198 50,198 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,198 C 350,198 650,608 950,608 L 950,608 C 650,608 350,198 50,198 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,198 C 350,198 650,608 950,608 L 950,608 C 650,608 350,198 50,198 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,198 C 350,198 650,608 950,608 L 950,608 C 650,608 350,198 50,198 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,198 C 350,198 650,344 950,344 L 950,345 C 650,345 350,199 50,199 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,199 C 350,199 650,345 950,345 L 950,346 C 650,346 350,200 50,200 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,200 C 350,200 650,608 950,608 L 950,608 C 650,608 350,200 50,200 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,200 C 350,200 650,608 950,608 L 950,613 C 650,613 350,205 50,205 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,613 950,613 L 950,613 C 650,613 350,798 50,798 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,346 950,346 L 950,480 C 650,480 350,747 50,747 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,205 C 350,205 650,613 950,613 L 950,621 C 650,621 350,213 50,213 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,213 C 350,213 650,480 950,480 L 950,480 C 650,480 350,213 50,213 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,213 C 350,213 650,621 950,621 L 950,652 C 650,652 350,244 50,244 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,244 C 350,244 650,480 950,480 L 950,480 C 650,480 350,244 50,244 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,244 C 350,244 650,480 950,480 L 950,480 C 650,480 350,244 50,244 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,244 C 350,244 650,480 950,480 L 950,480 C 650,480 350,244 50,244 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,244 C 350,244 650,652 950,652 L 950,670 C 650,670 350,262 50,262 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,480 950,480 L 950,480 C 650,480 350,754 50,754 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,262 C 350,262 650,480 950,480 L 950,486 C 650,486 350,267 50,267 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,486 950,486 L 950,486 C 650,486 350,754 50,754 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,267 C 350,267 650,486 950,486 L 950,486 C 650,486 350,267 50,267 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,267 C 350,267 650,486 950,486 L 950,487 C 650,487 350,268 50,268 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,268 C 350,268 650,487 950,487 L 950,488 C 650,488 350,269 50,269 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,269 C 350,269 650,488 950,488 L 950,488 C 650,488 350,269 50,269 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,488 950,488 L 950,488 C 650,488 350,754 50,754 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,269 C 350,269 650,670 950,670 L 950,676 C 650,676 350,275 50,275 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,275 C 350,275 650,488 950,488 L 950,488 C 650,488 350,275 50,275 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,275 C 350,275 650,488 950,488 L 950,489 C 650,489 350,276 50,276 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,489 950,489 L 950,489 C 650,489 350,754 50,754 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,489 950,489 L 950,495 C 650,495 350,760 50,760 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,760 C 350,760 650,495 950,495 L 950,495 C 650,495 350,760 50,760 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,276 C 350,276 650,676 950,676 L 950,676 C 650,676 350,276 50,276 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,276 C 350,276 650,495 950,495 L 950,495 C 650,495 350,276 50,276 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,276 C 350,276 650,676 950,676 L 950,676 C 650,676 350,276 50,276 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,276 C 350,276 650,495 950,495 L 950,496 C 650,496 350,277 50,277 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,277 C 350,277 650,676 950,676 L 950,683 C 650,683 350,284 50,284 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,284 C 350,284 650,683 950,683 L 950,684 C 650,684 350,285 50,285 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,285 C 350,285 650,496 950,496 L 950,496 C 650,496 350,285 50,285 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,760 C 350,760 650,496 950,496 L 950,496 C 650,496 350,760 50,760 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,285 C 350,285 650,496 950,496 L 950,496 C 650,496 350,285 50,285 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,285 C 350,285 650,496 950,496 L 950,496 C 650,496 350,285 50,285 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,285 C 350,285 650,496 950,496 L 950,500 C 650,500 350,289 50,289 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,684 950,684 L 950,684 C 650,684 350,289 50,289 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,500 C 650,500 350,289 50,289 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,500 C 650,500 350,289 50,289 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,684 950,684 L 950,684 C 650,684 350,289 50,289 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,500 C 650,500 350,289 50,289 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,760 C 350,760 650,684 950,684 L 950,688 C 650,688 350,764 50,764 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,688 950,688 L 950,688 C 650,688 350,289 50,289 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,500 C 650,500 350,289 50,289 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,504 C 650,504 350,293 50,293 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,293 C 350,293 650,688 950,688 L 950,691 C 650,691 350,297 50,297 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,504 950,504 L 950,504 C 650,504 350,764 50,764 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,297 C 350,297 650,504 950,504 L 950,507 C 650,507 350,300 50,300 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,300 C 350,300 650,507 950,507 L 950,507 C 650,507 350,300 50,300 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,300 C 350,300 650,691 950,691 L 950,692 C 650,692 350,301 50,301 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,301 C 350,301 650,692 950,692 L 950,692 C 650,692 350,301 50,301 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,301 C 350,301 650,692 950,692 L 950,710 C 650,710 350,319 50,319 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,511 C 650,511 350,323 50,323 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,323 C 350,323 650,150 950,150 L 950,169 C 650,169 350,342 50,342 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,342 C 350,342 650,169 950,169 L 950,288 C 650,288 350,461 50,461 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,461 C 350,461 650,511 950,511 L 950,511 C 650,511 350,461 50,461 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,511 950,511 L 950,511 C 650,511 350,764 50,764 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,461 C 350,461 650,511 950,511 L 950,511 C 650,511 350,461 50,461 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,461 C 350,461 650,710 950,710 L 950,718 C 650,718 350,469 50,469 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,469 C 350,469 650,511 950,511 L 950,512 C 650,512 350,470 50,470 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,470 C 350,470 650,718 950,718 L 950,759 C 650,759 350,511 50,511 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,511 C 350,511 650,512 950,512 L 950,512 C 650,512 350,511 50,511 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,511 C 350,511 650,759 950,759 L 950,760 C 650,760 350,512 50,512 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,512 C 350,512 650,512 950,512 L 950,512 C 650,512 350,512 50,512 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,512 950,512 L 950,512 C 650,512 350,764 50,764 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,512 950,512 L 950,512 C 650,512 350,764 50,764 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,512 950,512 L 950,512 C 650,512 350,764 50,764 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,512 C 350,512 650,760 950,760 L 950,760 C 650,760 350,512 50,512 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,512 950,512 L 950,512 C 650,512 350,764 50,764 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,512 C 350,512 650,512 950,512 L 950,513 C 650,513 350,513 50,513 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,513 950,513 L 950,521 C 650,521 350,772 50,772 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,513 C 350,513 650,521 950,521 L 950,521 C 650,521 350,513 50,513 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,513 C 350,513 650,521 950,521 L 950,522 C 650,522 350,514 50,514 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,772 C 350,772 650,522 950,522 L 950,522 C 650,522 350,772 50,772 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,772 C 350,772 650,522 950,522 L 950,530 C 650,530 350,780 50,780 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,514 C 350,514 650,530 950,530 L 950,530 C 650,530 350,514 50,514 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,514 C 350,514 650,781 950,781 L 950,797 C 650,797 350,530 50,530 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,530 C 350,530 650,530 950,530 L 950,530 C 650,530 350,530 50,530 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,530 C 350,530 650,530 950,530 L 950,542 C 650,542 350,542 50,542 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,542 C 350,542 650,542 950,542 L 950,542 C 650,542 350,542 50,542 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,542 C 350,542 650,288 950,288 L 950,316 C 650,316 350,570 50,570 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,570 C 350,570 650,760 950,760 L 950,766 C 650,766 350,576 50,576 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,576 C 350,576 650,542 950,542 L 950,545 C 650,545 350,579 50,579 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="darkred" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="darkblue" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="darkgreen" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="darkorchid" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkorange" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkgoldenrod" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darksalmon" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkgray" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="darkcyan" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="darkkhaki" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="darkmagenta" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="darkolivegreen" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="darkseagreen" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 12:19:55 Node 0: Jackson
+2025/01/23 12:19:55 Node 1: Freeman Artesian
+2025/01/23 12:19:55 Node 2: City Water
+2025/01/23 12:19:55 Node 3: River Water
+2025/01/23 12:19:55 Node 4: Freeman Ranch
+2025/01/23 12:19:55 Node 5: Print Shop
+2025/01/23 12:19:55 Node 6: Boiler Plant
+2025/01/23 12:19:55 Node 7: Grady Early
+2025/01/23 12:19:55 Node 0: Utilities
+2025/01/23 12:19:55 Node 1: Irrigation
+2025/01/23 12:19:55 Node 2: Domestic
+2025/01/23 12:19:55 Node 3: Unmetered
+2025/01/23 12:19:55 Node 4: Spillage
+2025/01/23 12:19:55 Flow 0: Jackson-Domestic-0.000000
+2025/01/23 12:19:55 Flow 1: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 2: City Water-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 3: Jackson-Irrigation-153500.000000
+2025/01/23 12:19:55 Flow 4: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 5: Jackson-Domestic-310003.410000
+2025/01/23 12:19:55 Flow 6: Jackson-Irrigation-4200.000000
+2025/01/23 12:19:55 Flow 7: Jackson-Irrigation-200.000000
+2025/01/23 12:19:55 Flow 8: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 9: City Water-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 10: River Water-Irrigation-602220.000000
+2025/01/23 12:19:55 Flow 11: Jackson-Irrigation-39800.000000
+2025/01/23 12:19:55 Flow 12: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 13: City Water-Irrigation-129893.000000
+2025/01/23 12:19:55 Flow 14: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 15: Jackson-Domestic-320205.060000
+2025/01/23 12:19:55 Flow 16: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 17: Jackson-Domestic-354037.840000
+2025/01/23 12:19:55 Flow 18: Jackson-Domestic-43570.710000
+2025/01/23 12:19:55 Flow 19: Jackson-Domestic-308445.560000
+2025/01/23 12:19:55 Flow 20: Jackson-Domestic-380022.810000
+2025/01/23 12:19:55 Flow 21: City Water-Irrigation-10300.000000
+2025/01/23 12:19:55 Flow 22: City Water-Irrigation-2.000000
+2025/01/23 12:19:55 Flow 23: City Water-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 24: City Water-Irrigation-274449.000000
+2025/01/23 12:19:55 Flow 25: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 26: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 27: Jackson-Domestic-107000.000000
+2025/01/23 12:19:55 Flow 28: Jackson-Domestic-140660.000000
+2025/01/23 12:19:55 Flow 29: Jackson-Domestic-0.000000
+2025/01/23 12:19:55 Flow 30: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 31: Jackson-Irrigation-23200.000000
+2025/01/23 12:19:55 Flow 32: Jackson-Domestic-51700.000000
+2025/01/23 12:19:55 Flow 33: Jackson-Utilities-6433371.000000
+2025/01/23 12:19:55 Flow 34: Jackson-Domestic-0.000000
+2025/01/23 12:19:55 Flow 35: City Water-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 36: Jackson-Irrigation-31300.000000
+2025/01/23 12:19:55 Flow 37: Jackson-Irrigation-100.000000
+2025/01/23 12:19:55 Flow 38: Jackson-Irrigation-229700.000000
+2025/01/23 12:19:55 Flow 39: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 40: City Water-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 41: Jackson-Utilities-1101440.000000
+2025/01/23 12:19:55 Flow 42: Jackson-Domestic-0.000000
+2025/01/23 12:19:55 Flow 43: Jackson-Irrigation-31600.000000
+2025/01/23 12:19:55 Flow 44: Jackson-Domestic-5228.290000
+2025/01/23 12:19:55 Flow 45: Jackson-Domestic-224946.940000
+2025/01/23 12:19:55 Flow 46: Jackson-Domestic-0.000000
+2025/01/23 12:19:55 Flow 47: Jackson-Domestic-0.000000
+2025/01/23 12:19:55 Flow 48: Jackson-Domestic-26022.000000
+2025/01/23 12:19:55 Flow 49: Jackson-Irrigation-78500.000000
+2025/01/23 12:19:55 Flow 50: Jackson-Irrigation-60600.000000
+2025/01/23 12:19:55 Flow 51: Jackson-Domestic-44435.830000
+2025/01/23 12:19:55 Flow 52: Jackson-Domestic-282000.000000
+2025/01/23 12:19:55 Flow 53: Freeman Ranch-Domestic-11970.000000
+2025/01/23 12:19:55 Flow 54: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 12:19:55 Flow 55: Jackson-Domestic-437573.100000
+2025/01/23 12:19:55 Flow 56: Jackson-Irrigation-5400.000000
+2025/01/23 12:19:55 Flow 57: Jackson-Domestic-1578232.250000
+2025/01/23 12:19:55 Flow 58: Jackson-Irrigation-26200.000000
+2025/01/23 12:19:55 Flow 59: Jackson-Irrigation-42700.000000
+2025/01/23 12:19:55 Flow 60: Jackson-Irrigation-26700.000000
+2025/01/23 12:19:55 Flow 61: Jackson-Domestic-918738.000000
+2025/01/23 12:19:55 Flow 62: City Water-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 63: Jackson-Irrigation-299700.000000
+2025/01/23 12:19:55 Flow 64: City Water-Irrigation-4315.000000
+2025/01/23 12:19:55 Flow 65: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 66: Jackson-Irrigation-95300.000000
+2025/01/23 12:19:55 Flow 67: Jackson-Irrigation-53700.000000
+2025/01/23 12:19:55 Flow 68: Jackson-Irrigation-19000.000000
+2025/01/23 12:19:55 Flow 69: City Water-Irrigation-15061.000000
+2025/01/23 12:19:55 Flow 70: Jackson-Domestic-335459.190000
+2025/01/23 12:19:55 Flow 71: Jackson-Irrigation-1000.000000
+2025/01/23 12:19:55 Flow 72: Jackson-Irrigation-58300.000000
+2025/01/23 12:19:55 Flow 73: City Water-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 74: City Water-Irrigation-309100.000000
+2025/01/23 12:19:55 Flow 75: City Water-Irrigation-39812.000000
+2025/01/23 12:19:55 Flow 76: Jackson-Domestic-0.000000
+2025/01/23 12:19:55 Flow 77: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 78: Jackson-Domestic-16200.000000
+2025/01/23 12:19:55 Flow 79: Jackson-Irrigation-66000.000000
+2025/01/23 12:19:55 Flow 80: Jackson-Domestic-368809.910000
+2025/01/23 12:19:55 Flow 81: Jackson-Domestic-70700.000000
+2025/01/23 12:19:55 Flow 82: Jackson-Irrigation-8300.000000
+2025/01/23 12:19:55 Flow 83: City Water-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 84: Jackson-Irrigation-16634.000000
+2025/01/23 12:19:55 Flow 85: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 86: Jackson-Irrigation-228992.000000
+2025/01/23 12:19:55 Flow 87: Jackson-Domestic-27700.000000
+2025/01/23 12:19:55 Flow 88: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 89: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 90: Jackson-Domestic-41853.930000
+2025/01/23 12:19:55 Flow 91: Jackson-Irrigation-49100.000000
+2025/01/23 12:19:55 Flow 92: City Water-Domestic-244274.244000
+2025/01/23 12:19:55 Flow 93: Jackson-Domestic-0.000000
+2025/01/23 12:19:55 Flow 94: Jackson-Irrigation-9900.000000
+2025/01/23 12:19:55 Flow 95: Jackson-Irrigation-227000.000000
+2025/01/23 12:19:55 Flow 96: Jackson-Domestic-199948.060000
+2025/01/23 12:19:55 Flow 97: City Water-Irrigation-47200.000000
+2025/01/23 12:19:55 Flow 98: Jackson-Irrigation-184000.000000
+2025/01/23 12:19:55 Flow 99: Jackson-Irrigation-26400.000000
+2025/01/23 12:19:55 Flow 100: Jackson-Domestic-64223.000000
+2025/01/23 12:19:55 Flow 101: Jackson-Domestic-1275.000000
+2025/01/23 12:19:55 Flow 102: Jackson-Domestic-919975.000000
+2025/01/23 12:19:55 Flow 103: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 104: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 105: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 106: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 107: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 108: Jackson-Irrigation-243600.000000
+2025/01/23 12:19:55 Flow 109: Jackson-Utilities-985048.000000
+2025/01/23 12:19:55 Flow 110: Jackson-Utilities-5964094.000000
+2025/01/23 12:19:55 Flow 111: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 112: City Water-Irrigation-3.000000
+2025/01/23 12:19:55 Flow 113: Jackson-Irrigation-2500.000000
+2025/01/23 12:19:55 Flow 114: Jackson-Domestic-407926.530000
+2025/01/23 12:19:55 Flow 115: Jackson-Irrigation-66600.000000
+2025/01/23 12:19:55 Flow 116: Jackson-Domestic-2056160.000000
+2025/01/23 12:19:55 Flow 117: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 118: Jackson-Domestic-85362.270000
+2025/01/23 12:19:55 Flow 119: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 120: City Water-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 121: City Water-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 122: City Water-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 123: Jackson-Domestic-6448.270000
+2025/01/23 12:19:55 Flow 124: City Water-Irrigation-11600.000000
+2025/01/23 12:19:55 Flow 125: Jackson-Irrigation-88200.000000
+2025/01/23 12:19:55 Flow 126: City Water-Irrigation-414490.000000
+2025/01/23 12:19:55 Flow 127: Jackson-Irrigation-9500.000000
+2025/01/23 12:19:55 Flow 128: Jackson-Irrigation-82400.000000
+2025/01/23 12:19:55 Flow 129: City Water-Irrigation-15300.000000
+2025/01/23 12:19:55 Flow 130: City Water-Irrigation-431765.000000
+2025/01/23 12:19:55 Flow 131: Jackson-Irrigation-42900.000000
+2025/01/23 12:19:55 Flow 132: Jackson-Unmetered-840660.040000
+2025/01/23 12:19:55 Flow 133: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 134: Jackson-Irrigation-605700.000000
+2025/01/23 12:19:55 Flow 135: Jackson-Irrigation-0.000000
+2025/01/23 12:19:55 Flow 136: Jackson-Utilities-1422675.000000
+2025/01/23 12:19:55 Flow 137: Jackson-Domestic-329423.000000
+2025/01/23 12:19:55 Flow 138: Jackson-Irrigation-177000.000000
+2025/01/23 12:19:55 Flow 139: Boiler Plant-Spillage-200.000000
+2025/01/23 12:19:55 Flow 140: Grady Early-Spillage-200.000000
+2025/01/23 12:19:55 Flow 141: Print Shop-Spillage-310.000000
+2025/01/23 12:19:55 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,0 C 350,0 650,567 950,567 L 950,567 C 650,567 350,0 50,0 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,0 C 350,0 650,318 950,318 L 950,318 C 650,318 350,0 50,0 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,318 950,318 L 950,318 C 650,318 350,747 50,747 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,0 C 350,0 650,318 950,318 L 950,321 C 650,321 350,3 50,3 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,3 C 350,3 650,321 950,321 L 950,321 C 650,321 350,3 50,3 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,3 C 350,3 650,567 950,567 L 950,573 C 650,573 350,9 50,9 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,321 950,321 L 950,321 C 650,321 350,9 50,9 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,321 950,321 L 950,321 C 650,321 350,9 50,9 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,321 950,321 L 950,321 C 650,321 350,9 50,9 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,321 950,321 L 950,321 C 650,321 350,747 50,747 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,321 950,321 L 950,333 C 650,333 350,798 50,798 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,333 950,333 L 950,333 C 650,333 350,9 50,9 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,333 950,333 L 950,333 C 650,333 350,9 50,9 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,333 950,333 L 950,335 C 650,335 350,749 50,749 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,335 950,335 L 950,335 C 650,335 350,9 50,9 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,573 950,573 L 950,579 C 650,579 350,15 50,15 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,15 C 350,15 650,335 950,335 L 950,335 C 650,335 350,15 50,15 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,15 C 350,15 650,579 950,579 L 950,586 C 650,586 350,22 50,22 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,22 C 350,22 650,586 950,586 L 950,586 C 650,586 350,22 50,22 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,22 C 350,22 650,586 950,586 L 950,592 C 650,592 350,28 50,28 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,28 C 350,28 650,592 950,592 L 950,599 C 650,599 350,35 50,35 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,749 C 350,749 650,335 950,335 L 950,335 C 650,335 350,749 50,749 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,749 C 350,749 650,335 950,335 L 950,335 C 650,335 350,749 50,749 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,749 C 350,749 650,335 950,335 L 950,335 C 650,335 350,749 50,749 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,749 C 350,749 650,335 950,335 L 950,340 C 650,340 350,754 50,754 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,35 C 350,35 650,340 950,340 L 950,340 C 650,340 350,35 50,35 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,35 C 350,35 650,340 950,340 L 950,340 C 650,340 350,35 50,35 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,35 C 350,35 650,599 950,599 L 950,601 C 650,601 350,37 50,37 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,37 C 350,37 650,601 950,601 L 950,603 C 650,603 350,39 50,39 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,39 C 350,39 650,603 950,603 L 950,603 C 650,603 350,39 50,39 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,39 C 350,39 650,340 950,340 L 950,340 C 650,340 350,39 50,39 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,39 C 350,39 650,340 950,340 L 950,340 C 650,340 350,39 50,39 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,39 C 350,39 650,603 950,603 L 950,604 C 650,604 350,40 50,40 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,40 C 350,40 650,0 950,0 L 950,128 C 650,128 350,168 50,168 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,168 C 350,168 650,604 950,604 L 950,604 C 650,604 350,168 50,168 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,340 950,340 L 950,340 C 650,340 350,754 50,754 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,168 C 350,168 650,340 950,340 L 950,340 C 650,340 350,168 50,168 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,168 C 350,168 650,340 950,340 L 950,340 C 650,340 350,168 50,168 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,168 C 350,168 650,340 950,340 L 950,344 C 650,344 350,172 50,172 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,172 C 350,172 650,344 950,344 L 950,344 C 650,344 350,172 50,172 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,344 950,344 L 950,344 C 650,344 350,754 50,754 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,172 C 350,172 650,128 950,128 L 950,150 C 650,150 350,194 50,194 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,194 C 350,194 650,604 950,604 L 950,604 C 650,604 350,194 50,194 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,194 C 350,194 650,344 950,344 L 950,344 C 650,344 350,194 50,194 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,194 C 350,194 650,604 950,604 L 950,604 C 650,604 350,194 50,194 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,194 C 350,194 650,604 950,604 L 950,608 C 650,608 350,198 50,198 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,198 C 350,198 650,608 950,608 L 950,608 C 650,608 350,198 50,198 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,198 C 350,198 650,608 950,608 L 950,608 C 650,608 350,198 50,198 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,198 C 350,198 650,608 950,608 L 950,608 C 650,608 350,198 50,198 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,198 C 350,198 650,344 950,344 L 950,345 C 650,345 350,199 50,199 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,199 C 350,199 650,345 950,345 L 950,346 C 650,346 350,200 50,200 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,200 C 350,200 650,608 950,608 L 950,608 C 650,608 350,200 50,200 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,200 C 350,200 650,608 950,608 L 950,613 C 650,613 350,205 50,205 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,613 950,613 L 950,613 C 650,613 350,798 50,798 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,346 950,346 L 950,480 C 650,480 350,747 50,747 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,205 C 350,205 650,613 950,613 L 950,621 C 650,621 350,213 50,213 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,213 C 350,213 650,480 950,480 L 950,480 C 650,480 350,213 50,213 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,213 C 350,213 650,621 950,621 L 950,652 C 650,652 350,244 50,244 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,244 C 350,244 650,480 950,480 L 950,480 C 650,480 350,244 50,244 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,244 C 350,244 650,480 950,480 L 950,480 C 650,480 350,244 50,244 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,244 C 350,244 650,480 950,480 L 950,480 C 650,480 350,244 50,244 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,244 C 350,244 650,652 950,652 L 950,670 C 650,670 350,262 50,262 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,480 950,480 L 950,480 C 650,480 350,754 50,754 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,262 C 350,262 650,480 950,480 L 950,486 C 650,486 350,267 50,267 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,486 950,486 L 950,486 C 650,486 350,754 50,754 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,267 C 350,267 650,486 950,486 L 950,486 C 650,486 350,267 50,267 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,267 C 350,267 650,486 950,486 L 950,487 C 650,487 350,268 50,268 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,268 C 350,268 650,487 950,487 L 950,488 C 650,488 350,269 50,269 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,269 C 350,269 650,488 950,488 L 950,488 C 650,488 350,269 50,269 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,488 950,488 L 950,488 C 650,488 350,754 50,754 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,269 C 350,269 650,670 950,670 L 950,676 C 650,676 350,275 50,275 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,275 C 350,275 650,488 950,488 L 950,488 C 650,488 350,275 50,275 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,275 C 350,275 650,488 950,488 L 950,489 C 650,489 350,276 50,276 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,489 950,489 L 950,489 C 650,489 350,754 50,754 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,489 950,489 L 950,495 C 650,495 350,760 50,760 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,760 C 350,760 650,495 950,495 L 950,495 C 650,495 350,760 50,760 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,276 C 350,276 650,676 950,676 L 950,676 C 650,676 350,276 50,276 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,276 C 350,276 650,495 950,495 L 950,495 C 650,495 350,276 50,276 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,276 C 350,276 650,676 950,676 L 950,676 C 650,676 350,276 50,276 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,276 C 350,276 650,495 950,495 L 950,496 C 650,496 350,277 50,277 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,277 C 350,277 650,676 950,676 L 950,683 C 650,683 350,284 50,284 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,284 C 350,284 650,683 950,683 L 950,684 C 650,684 350,285 50,285 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,285 C 350,285 650,496 950,496 L 950,496 C 650,496 350,285 50,285 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,760 C 350,760 650,496 950,496 L 950,496 C 650,496 350,760 50,760 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,285 C 350,285 650,496 950,496 L 950,496 C 650,496 350,285 50,285 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,285 C 350,285 650,496 950,496 L 950,496 C 650,496 350,285 50,285 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,285 C 350,285 650,496 950,496 L 950,500 C 650,500 350,289 50,289 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,684 950,684 L 950,684 C 650,684 350,289 50,289 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,500 C 650,500 350,289 50,289 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,500 C 650,500 350,289 50,289 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,684 950,684 L 950,684 C 650,684 350,289 50,289 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,500 C 650,500 350,289 50,289 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,760 C 350,760 650,684 950,684 L 950,688 C 650,688 350,764 50,764 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,688 950,688 L 950,688 C 650,688 350,289 50,289 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,500 C 650,500 350,289 50,289 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,504 C 650,504 350,293 50,293 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,293 C 350,293 650,688 950,688 L 950,691 C 650,691 350,297 50,297 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,504 950,504 L 950,504 C 650,504 350,764 50,764 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,297 C 350,297 650,504 950,504 L 950,507 C 650,507 350,300 50,300 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,300 C 350,300 650,507 950,507 L 950,507 C 650,507 350,300 50,300 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,300 C 350,300 650,691 950,691 L 950,692 C 650,692 350,301 50,301 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,301 C 350,301 650,692 950,692 L 950,692 C 650,692 350,301 50,301 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,301 C 350,301 650,692 950,692 L 950,710 C 650,710 350,319 50,319 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,511 C 650,511 350,323 50,323 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,323 C 350,323 650,150 950,150 L 950,169 C 650,169 350,342 50,342 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,342 C 350,342 650,169 950,169 L 950,288 C 650,288 350,461 50,461 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,461 C 350,461 650,511 950,511 L 950,511 C 650,511 350,461 50,461 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,511 950,511 L 950,511 C 650,511 350,764 50,764 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,461 C 350,461 650,511 950,511 L 950,511 C 650,511 350,461 50,461 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,461 C 350,461 650,710 950,710 L 950,718 C 650,718 350,469 50,469 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,469 C 350,469 650,511 950,511 L 950,512 C 650,512 350,470 50,470 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,470 C 350,470 650,718 950,718 L 950,759 C 650,759 350,511 50,511 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,511 C 350,511 650,512 950,512 L 950,512 C 650,512 350,511 50,511 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,511 C 350,511 650,759 950,759 L 950,760 C 650,760 350,512 50,512 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,512 C 350,512 650,512 950,512 L 950,512 C 650,512 350,512 50,512 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,512 950,512 L 950,512 C 650,512 350,764 50,764 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,512 950,512 L 950,512 C 650,512 350,764 50,764 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,512 950,512 L 950,512 C 650,512 350,764 50,764 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,512 C 350,512 650,760 950,760 L 950,760 C 650,760 350,512 50,512 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,512 950,512 L 950,512 C 650,512 350,764 50,764 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,512 C 350,512 650,512 950,512 L 950,513 C 650,513 350,513 50,513 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,513 950,513 L 950,521 C 650,521 350,772 50,772 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,513 C 350,513 650,521 950,521 L 950,521 C 650,521 350,513 50,513 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,513 C 350,513 650,521 950,521 L 950,522 C 650,522 350,514 50,514 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,772 C 350,772 650,522 950,522 L 950,522 C 650,522 350,772 50,772 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,772 C 350,772 650,522 950,522 L 950,530 C 650,530 350,780 50,780 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,514 C 350,514 650,530 950,530 L 950,530 C 650,530 350,514 50,514 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,514 C 350,514 650,781 950,781 L 950,797 C 650,797 350,530 50,530 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,530 C 350,530 650,530 950,530 L 950,530 C 650,530 350,530 50,530 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,530 C 350,530 650,530 950,530 L 950,542 C 650,542 350,542 50,542 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,542 C 350,542 650,542 950,542 L 950,542 C 650,542 350,542 50,542 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,542 C 350,542 650,288 950,288 L 950,316 C 650,316 350,570 50,570 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,570 C 350,570 650,760 950,760 L 950,766 C 650,766 350,576 50,576 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,576 C 350,576 650,542 950,542 L 950,545 C 650,545 350,579 50,579 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="darkred" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="darkblue" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="darkgreen" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="darkorchid" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkorange" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkgoldenrod" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darksalmon" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkgray" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="darkcyan" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="darkkhaki" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="darkmagenta" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="darkolivegreen" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="darkseagreen" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 12:20:20 Node 0: Jackson
+2025/01/23 12:20:20 Node 1: Freeman Artesian
+2025/01/23 12:20:20 Node 2: City Water
+2025/01/23 12:20:20 Node 3: River Water
+2025/01/23 12:20:20 Node 4: Freeman Ranch
+2025/01/23 12:20:20 Node 5: Print Shop
+2025/01/23 12:20:20 Node 6: Grady Early
+2025/01/23 12:20:20 Node 7: Boiler Plant
+2025/01/23 12:20:20 Node 0: Utilities
+2025/01/23 12:20:20 Node 1: Irrigation
+2025/01/23 12:20:20 Node 2: Domestic
+2025/01/23 12:20:20 Node 3: Unmetered
+2025/01/23 12:20:20 Node 4: Spillage
+2025/01/23 12:20:20 Flow 0: Jackson-Domestic-0.000000
+2025/01/23 12:20:20 Flow 1: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 2: City Water-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 3: Jackson-Irrigation-153500.000000
+2025/01/23 12:20:20 Flow 4: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 5: Jackson-Domestic-310003.410000
+2025/01/23 12:20:20 Flow 6: Jackson-Irrigation-4200.000000
+2025/01/23 12:20:20 Flow 7: Jackson-Irrigation-200.000000
+2025/01/23 12:20:20 Flow 8: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 9: City Water-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 10: River Water-Irrigation-602220.000000
+2025/01/23 12:20:20 Flow 11: Jackson-Irrigation-39800.000000
+2025/01/23 12:20:20 Flow 12: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 13: City Water-Irrigation-129893.000000
+2025/01/23 12:20:20 Flow 14: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 15: Jackson-Domestic-320205.060000
+2025/01/23 12:20:20 Flow 16: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 17: Jackson-Domestic-354037.840000
+2025/01/23 12:20:20 Flow 18: Jackson-Domestic-43570.710000
+2025/01/23 12:20:20 Flow 19: Jackson-Domestic-308445.560000
+2025/01/23 12:20:20 Flow 20: Jackson-Domestic-380022.810000
+2025/01/23 12:20:20 Flow 21: City Water-Irrigation-10300.000000
+2025/01/23 12:20:20 Flow 22: City Water-Irrigation-2.000000
+2025/01/23 12:20:20 Flow 23: City Water-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 24: City Water-Irrigation-274449.000000
+2025/01/23 12:20:20 Flow 25: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 26: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 27: Jackson-Domestic-107000.000000
+2025/01/23 12:20:20 Flow 28: Jackson-Domestic-140660.000000
+2025/01/23 12:20:20 Flow 29: Jackson-Domestic-0.000000
+2025/01/23 12:20:20 Flow 30: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 31: Jackson-Irrigation-23200.000000
+2025/01/23 12:20:20 Flow 32: Jackson-Domestic-51700.000000
+2025/01/23 12:20:20 Flow 33: Jackson-Utilities-6433371.000000
+2025/01/23 12:20:20 Flow 34: Jackson-Domestic-0.000000
+2025/01/23 12:20:20 Flow 35: City Water-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 36: Jackson-Irrigation-31300.000000
+2025/01/23 12:20:20 Flow 37: Jackson-Irrigation-100.000000
+2025/01/23 12:20:20 Flow 38: Jackson-Irrigation-229700.000000
+2025/01/23 12:20:20 Flow 39: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 40: City Water-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 41: Jackson-Utilities-1101440.000000
+2025/01/23 12:20:20 Flow 42: Jackson-Domestic-0.000000
+2025/01/23 12:20:20 Flow 43: Jackson-Irrigation-31600.000000
+2025/01/23 12:20:20 Flow 44: Jackson-Domestic-5228.290000
+2025/01/23 12:20:20 Flow 45: Jackson-Domestic-224946.940000
+2025/01/23 12:20:20 Flow 46: Jackson-Domestic-0.000000
+2025/01/23 12:20:20 Flow 47: Jackson-Domestic-0.000000
+2025/01/23 12:20:20 Flow 48: Jackson-Domestic-26022.000000
+2025/01/23 12:20:20 Flow 49: Jackson-Irrigation-78500.000000
+2025/01/23 12:20:20 Flow 50: Jackson-Irrigation-60600.000000
+2025/01/23 12:20:20 Flow 51: Jackson-Domestic-44435.830000
+2025/01/23 12:20:20 Flow 52: Jackson-Domestic-282000.000000
+2025/01/23 12:20:20 Flow 53: Freeman Ranch-Domestic-11970.000000
+2025/01/23 12:20:20 Flow 54: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 12:20:20 Flow 55: Jackson-Domestic-437573.100000
+2025/01/23 12:20:20 Flow 56: Jackson-Irrigation-5400.000000
+2025/01/23 12:20:20 Flow 57: Jackson-Domestic-1578232.250000
+2025/01/23 12:20:20 Flow 58: Jackson-Irrigation-26200.000000
+2025/01/23 12:20:20 Flow 59: Jackson-Irrigation-42700.000000
+2025/01/23 12:20:20 Flow 60: Jackson-Irrigation-26700.000000
+2025/01/23 12:20:20 Flow 61: Jackson-Domestic-918738.000000
+2025/01/23 12:20:20 Flow 62: City Water-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 63: Jackson-Irrigation-299700.000000
+2025/01/23 12:20:20 Flow 64: City Water-Irrigation-4315.000000
+2025/01/23 12:20:20 Flow 65: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 66: Jackson-Irrigation-95300.000000
+2025/01/23 12:20:20 Flow 67: Jackson-Irrigation-53700.000000
+2025/01/23 12:20:20 Flow 68: Jackson-Irrigation-19000.000000
+2025/01/23 12:20:20 Flow 69: City Water-Irrigation-15061.000000
+2025/01/23 12:20:20 Flow 70: Jackson-Domestic-335459.190000
+2025/01/23 12:20:20 Flow 71: Jackson-Irrigation-1000.000000
+2025/01/23 12:20:20 Flow 72: Jackson-Irrigation-58300.000000
+2025/01/23 12:20:20 Flow 73: City Water-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 74: City Water-Irrigation-309100.000000
+2025/01/23 12:20:20 Flow 75: City Water-Irrigation-39812.000000
+2025/01/23 12:20:20 Flow 76: Jackson-Domestic-0.000000
+2025/01/23 12:20:20 Flow 77: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 78: Jackson-Domestic-16200.000000
+2025/01/23 12:20:20 Flow 79: Jackson-Irrigation-66000.000000
+2025/01/23 12:20:20 Flow 80: Jackson-Domestic-368809.910000
+2025/01/23 12:20:20 Flow 81: Jackson-Domestic-70700.000000
+2025/01/23 12:20:20 Flow 82: Jackson-Irrigation-8300.000000
+2025/01/23 12:20:20 Flow 83: City Water-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 84: Jackson-Irrigation-16634.000000
+2025/01/23 12:20:20 Flow 85: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 86: Jackson-Irrigation-228992.000000
+2025/01/23 12:20:20 Flow 87: Jackson-Domestic-27700.000000
+2025/01/23 12:20:20 Flow 88: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 89: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 90: Jackson-Domestic-41853.930000
+2025/01/23 12:20:20 Flow 91: Jackson-Irrigation-49100.000000
+2025/01/23 12:20:20 Flow 92: City Water-Domestic-244274.244000
+2025/01/23 12:20:20 Flow 93: Jackson-Domestic-0.000000
+2025/01/23 12:20:20 Flow 94: Jackson-Irrigation-9900.000000
+2025/01/23 12:20:20 Flow 95: Jackson-Irrigation-227000.000000
+2025/01/23 12:20:20 Flow 96: Jackson-Domestic-199948.060000
+2025/01/23 12:20:20 Flow 97: City Water-Irrigation-47200.000000
+2025/01/23 12:20:20 Flow 98: Jackson-Irrigation-184000.000000
+2025/01/23 12:20:20 Flow 99: Jackson-Irrigation-26400.000000
+2025/01/23 12:20:20 Flow 100: Jackson-Domestic-64223.000000
+2025/01/23 12:20:20 Flow 101: Jackson-Domestic-1275.000000
+2025/01/23 12:20:20 Flow 102: Jackson-Domestic-919975.000000
+2025/01/23 12:20:20 Flow 103: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 104: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 105: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 106: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 107: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 108: Jackson-Irrigation-243600.000000
+2025/01/23 12:20:20 Flow 109: Jackson-Utilities-985048.000000
+2025/01/23 12:20:20 Flow 110: Jackson-Utilities-5964094.000000
+2025/01/23 12:20:20 Flow 111: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 112: City Water-Irrigation-3.000000
+2025/01/23 12:20:20 Flow 113: Jackson-Irrigation-2500.000000
+2025/01/23 12:20:20 Flow 114: Jackson-Domestic-407926.530000
+2025/01/23 12:20:20 Flow 115: Jackson-Irrigation-66600.000000
+2025/01/23 12:20:20 Flow 116: Jackson-Domestic-2056160.000000
+2025/01/23 12:20:20 Flow 117: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 118: Jackson-Domestic-85362.270000
+2025/01/23 12:20:20 Flow 119: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 120: City Water-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 121: City Water-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 122: City Water-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 123: Jackson-Domestic-6448.270000
+2025/01/23 12:20:20 Flow 124: City Water-Irrigation-11600.000000
+2025/01/23 12:20:20 Flow 125: Jackson-Irrigation-88200.000000
+2025/01/23 12:20:20 Flow 126: City Water-Irrigation-414490.000000
+2025/01/23 12:20:20 Flow 127: Jackson-Irrigation-9500.000000
+2025/01/23 12:20:20 Flow 128: Jackson-Irrigation-82400.000000
+2025/01/23 12:20:20 Flow 129: City Water-Irrigation-15300.000000
+2025/01/23 12:20:20 Flow 130: City Water-Irrigation-431765.000000
+2025/01/23 12:20:20 Flow 131: Jackson-Irrigation-42900.000000
+2025/01/23 12:20:20 Flow 132: Jackson-Unmetered-840660.040000
+2025/01/23 12:20:20 Flow 133: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 134: Jackson-Irrigation-605700.000000
+2025/01/23 12:20:20 Flow 135: Jackson-Irrigation-0.000000
+2025/01/23 12:20:20 Flow 136: Jackson-Utilities-1422675.000000
+2025/01/23 12:20:20 Flow 137: Jackson-Domestic-329423.000000
+2025/01/23 12:20:20 Flow 138: Jackson-Irrigation-177000.000000
+2025/01/23 12:20:20 Flow 139: Boiler Plant-Spillage-200.000000
+2025/01/23 12:20:20 Flow 140: Grady Early-Spillage-200.000000
+2025/01/23 12:20:20 Flow 141: Print Shop-Spillage-310.000000
+2025/01/23 12:20:20 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,0 C 350,0 650,567 950,567 L 950,567 C 650,567 350,0 50,0 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,0 C 350,0 650,318 950,318 L 950,318 C 650,318 350,0 50,0 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,318 950,318 L 950,318 C 650,318 350,747 50,747 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,0 C 350,0 650,318 950,318 L 950,321 C 650,321 350,3 50,3 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,3 C 350,3 650,321 950,321 L 950,321 C 650,321 350,3 50,3 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,3 C 350,3 650,567 950,567 L 950,573 C 650,573 350,9 50,9 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,321 950,321 L 950,321 C 650,321 350,9 50,9 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,321 950,321 L 950,321 C 650,321 350,9 50,9 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,321 950,321 L 950,321 C 650,321 350,9 50,9 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,321 950,321 L 950,321 C 650,321 350,747 50,747 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,321 950,321 L 950,333 C 650,333 350,798 50,798 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,333 950,333 L 950,333 C 650,333 350,9 50,9 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,333 950,333 L 950,333 C 650,333 350,9 50,9 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,333 950,333 L 950,335 C 650,335 350,749 50,749 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,335 950,335 L 950,335 C 650,335 350,9 50,9 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,9 C 350,9 650,573 950,573 L 950,579 C 650,579 350,15 50,15 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,15 C 350,15 650,335 950,335 L 950,335 C 650,335 350,15 50,15 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,15 C 350,15 650,579 950,579 L 950,586 C 650,586 350,22 50,22 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,22 C 350,22 650,586 950,586 L 950,586 C 650,586 350,22 50,22 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,22 C 350,22 650,586 950,586 L 950,592 C 650,592 350,28 50,28 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,28 C 350,28 650,592 950,592 L 950,599 C 650,599 350,35 50,35 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,749 C 350,749 650,335 950,335 L 950,335 C 650,335 350,749 50,749 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,749 C 350,749 650,335 950,335 L 950,335 C 650,335 350,749 50,749 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,749 C 350,749 650,335 950,335 L 950,335 C 650,335 350,749 50,749 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,749 C 350,749 650,335 950,335 L 950,340 C 650,340 350,754 50,754 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,35 C 350,35 650,340 950,340 L 950,340 C 650,340 350,35 50,35 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,35 C 350,35 650,340 950,340 L 950,340 C 650,340 350,35 50,35 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,35 C 350,35 650,599 950,599 L 950,601 C 650,601 350,37 50,37 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,37 C 350,37 650,601 950,601 L 950,603 C 650,603 350,39 50,39 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,39 C 350,39 650,603 950,603 L 950,603 C 650,603 350,39 50,39 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,39 C 350,39 650,340 950,340 L 950,340 C 650,340 350,39 50,39 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,39 C 350,39 650,340 950,340 L 950,340 C 650,340 350,39 50,39 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,39 C 350,39 650,603 950,603 L 950,604 C 650,604 350,40 50,40 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,40 C 350,40 650,0 950,0 L 950,128 C 650,128 350,168 50,168 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,168 C 350,168 650,604 950,604 L 950,604 C 650,604 350,168 50,168 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,340 950,340 L 950,340 C 650,340 350,754 50,754 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,168 C 350,168 650,340 950,340 L 950,340 C 650,340 350,168 50,168 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,168 C 350,168 650,340 950,340 L 950,340 C 650,340 350,168 50,168 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,168 C 350,168 650,340 950,340 L 950,344 C 650,344 350,172 50,172 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,172 C 350,172 650,344 950,344 L 950,344 C 650,344 350,172 50,172 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,344 950,344 L 950,344 C 650,344 350,754 50,754 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,172 C 350,172 650,128 950,128 L 950,150 C 650,150 350,194 50,194 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,194 C 350,194 650,604 950,604 L 950,604 C 650,604 350,194 50,194 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,194 C 350,194 650,344 950,344 L 950,344 C 650,344 350,194 50,194 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,194 C 350,194 650,604 950,604 L 950,604 C 650,604 350,194 50,194 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,194 C 350,194 650,604 950,604 L 950,608 C 650,608 350,198 50,198 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,198 C 350,198 650,608 950,608 L 950,608 C 650,608 350,198 50,198 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,198 C 350,198 650,608 950,608 L 950,608 C 650,608 350,198 50,198 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,198 C 350,198 650,608 950,608 L 950,608 C 650,608 350,198 50,198 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,198 C 350,198 650,344 950,344 L 950,345 C 650,345 350,199 50,199 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,199 C 350,199 650,345 950,345 L 950,346 C 650,346 350,200 50,200 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,200 C 350,200 650,608 950,608 L 950,608 C 650,608 350,200 50,200 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,200 C 350,200 650,608 950,608 L 950,613 C 650,613 350,205 50,205 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,613 950,613 L 950,613 C 650,613 350,798 50,798 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,346 950,346 L 950,480 C 650,480 350,747 50,747 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,205 C 350,205 650,613 950,613 L 950,621 C 650,621 350,213 50,213 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,213 C 350,213 650,480 950,480 L 950,480 C 650,480 350,213 50,213 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,213 C 350,213 650,621 950,621 L 950,652 C 650,652 350,244 50,244 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,244 C 350,244 650,480 950,480 L 950,480 C 650,480 350,244 50,244 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,244 C 350,244 650,480 950,480 L 950,480 C 650,480 350,244 50,244 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,244 C 350,244 650,480 950,480 L 950,480 C 650,480 350,244 50,244 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,244 C 350,244 650,652 950,652 L 950,670 C 650,670 350,262 50,262 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,480 950,480 L 950,480 C 650,480 350,754 50,754 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,262 C 350,262 650,480 950,480 L 950,486 C 650,486 350,267 50,267 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,486 950,486 L 950,486 C 650,486 350,754 50,754 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,267 C 350,267 650,486 950,486 L 950,486 C 650,486 350,267 50,267 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,267 C 350,267 650,486 950,486 L 950,487 C 650,487 350,268 50,268 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,268 C 350,268 650,487 950,487 L 950,488 C 650,488 350,269 50,269 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,269 C 350,269 650,488 950,488 L 950,488 C 650,488 350,269 50,269 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,488 950,488 L 950,488 C 650,488 350,754 50,754 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,269 C 350,269 650,670 950,670 L 950,676 C 650,676 350,275 50,275 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,275 C 350,275 650,488 950,488 L 950,488 C 650,488 350,275 50,275 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,275 C 350,275 650,488 950,488 L 950,489 C 650,489 350,276 50,276 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,489 950,489 L 950,489 C 650,489 350,754 50,754 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,754 C 350,754 650,489 950,489 L 950,495 C 650,495 350,760 50,760 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,760 C 350,760 650,495 950,495 L 950,495 C 650,495 350,760 50,760 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,276 C 350,276 650,676 950,676 L 950,676 C 650,676 350,276 50,276 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,276 C 350,276 650,495 950,495 L 950,495 C 650,495 350,276 50,276 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,276 C 350,276 650,676 950,676 L 950,676 C 650,676 350,276 50,276 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,276 C 350,276 650,495 950,495 L 950,496 C 650,496 350,277 50,277 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,277 C 350,277 650,676 950,676 L 950,683 C 650,683 350,284 50,284 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,284 C 350,284 650,683 950,683 L 950,684 C 650,684 350,285 50,285 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,285 C 350,285 650,496 950,496 L 950,496 C 650,496 350,285 50,285 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,760 C 350,760 650,496 950,496 L 950,496 C 650,496 350,760 50,760 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,285 C 350,285 650,496 950,496 L 950,496 C 650,496 350,285 50,285 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,285 C 350,285 650,496 950,496 L 950,496 C 650,496 350,285 50,285 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,285 C 350,285 650,496 950,496 L 950,500 C 650,500 350,289 50,289 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,684 950,684 L 950,684 C 650,684 350,289 50,289 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,500 C 650,500 350,289 50,289 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,500 C 650,500 350,289 50,289 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,684 950,684 L 950,684 C 650,684 350,289 50,289 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,500 C 650,500 350,289 50,289 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,760 C 350,760 650,684 950,684 L 950,688 C 650,688 350,764 50,764 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,688 950,688 L 950,688 C 650,688 350,289 50,289 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,500 C 650,500 350,289 50,289 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,289 C 350,289 650,500 950,500 L 950,504 C 650,504 350,293 50,293 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,293 C 350,293 650,688 950,688 L 950,691 C 650,691 350,297 50,297 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,504 950,504 L 950,504 C 650,504 350,764 50,764 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,297 C 350,297 650,504 950,504 L 950,507 C 650,507 350,300 50,300 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,300 C 350,300 650,507 950,507 L 950,507 C 650,507 350,300 50,300 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,300 C 350,300 650,691 950,691 L 950,692 C 650,692 350,301 50,301 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,301 C 350,301 650,692 950,692 L 950,692 C 650,692 350,301 50,301 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,301 C 350,301 650,692 950,692 L 950,710 C 650,710 350,319 50,319 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,507 C 650,507 350,319 50,319 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,319 C 350,319 650,507 950,507 L 950,511 C 650,511 350,323 50,323 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,323 C 350,323 650,150 950,150 L 950,169 C 650,169 350,342 50,342 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,342 C 350,342 650,169 950,169 L 950,288 C 650,288 350,461 50,461 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,461 C 350,461 650,511 950,511 L 950,511 C 650,511 350,461 50,461 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,511 950,511 L 950,511 C 650,511 350,764 50,764 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,461 C 350,461 650,511 950,511 L 950,511 C 650,511 350,461 50,461 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,461 C 350,461 650,710 950,710 L 950,718 C 650,718 350,469 50,469 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,469 C 350,469 650,511 950,511 L 950,512 C 650,512 350,470 50,470 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,470 C 350,470 650,718 950,718 L 950,759 C 650,759 350,511 50,511 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,511 C 350,511 650,512 950,512 L 950,512 C 650,512 350,511 50,511 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,511 C 350,511 650,759 950,759 L 950,760 C 650,760 350,512 50,512 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,512 C 350,512 650,512 950,512 L 950,512 C 650,512 350,512 50,512 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,512 950,512 L 950,512 C 650,512 350,764 50,764 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,512 950,512 L 950,512 C 650,512 350,764 50,764 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,512 950,512 L 950,512 C 650,512 350,764 50,764 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,512 C 350,512 650,760 950,760 L 950,760 C 650,760 350,512 50,512 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,512 950,512 L 950,512 C 650,512 350,764 50,764 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,512 C 350,512 650,512 950,512 L 950,513 C 650,513 350,513 50,513 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,764 C 350,764 650,513 950,513 L 950,521 C 650,521 350,772 50,772 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,513 C 350,513 650,521 950,521 L 950,521 C 650,521 350,513 50,513 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,513 C 350,513 650,521 950,521 L 950,522 C 650,522 350,514 50,514 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,772 C 350,772 650,522 950,522 L 950,522 C 650,522 350,772 50,772 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,772 C 350,772 650,522 950,522 L 950,530 C 650,530 350,780 50,780 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,514 C 350,514 650,530 950,530 L 950,530 C 650,530 350,514 50,514 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,514 C 350,514 650,781 950,781 L 950,797 C 650,797 350,530 50,530 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,530 C 350,530 650,530 950,530 L 950,530 C 650,530 350,530 50,530 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,530 C 350,530 650,530 950,530 L 950,542 C 650,542 350,542 50,542 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,542 C 350,542 650,542 950,542 L 950,542 C 650,542 350,542 50,542 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,542 C 350,542 650,288 950,288 L 950,316 C 650,316 350,570 50,570 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,570 C 350,570 650,760 950,760 L 950,766 C 650,766 350,576 50,576 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,576 C 350,576 650,542 950,542 L 950,545 C 650,545 350,579 50,579 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="darkred" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="darkblue" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="darkgreen" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="darkorchid" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkorange" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkgoldenrod" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darksalmon" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkgray" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="darkcyan" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="darkkhaki" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="darkmagenta" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="darkolivegreen" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="darkseagreen" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 12:42:53 Node 0: Jackson
+2025/01/23 12:42:53 Node 1: Freeman Artesian
+2025/01/23 12:42:53 Node 2: City Water
+2025/01/23 12:42:53 Node 3: River Water
+2025/01/23 12:42:53 Node 4: Freeman Ranch
+2025/01/23 12:42:53 Node 5: Print Shop
+2025/01/23 12:42:53 Node 6: Boiler Plant
+2025/01/23 12:42:53 Node 7: Grady Early
+2025/01/23 12:42:53 Node 0: Utilities
+2025/01/23 12:42:53 Node 1: Irrigation
+2025/01/23 12:42:53 Node 2: Domestic
+2025/01/23 12:42:53 Node 3: Unmetered
+2025/01/23 12:42:53 Node 4: Spillage
+2025/01/23 12:42:53 Flow 0: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 12:42:53 Flow 1: City Water-Domestic-244274.244000
+2025/01/23 12:42:53 Flow 2: Boiler Plant-Spillage-200.000000
+2025/01/23 12:42:53 Flow 3: Jackson-Irrigation-3415426.000000
+2025/01/23 12:42:53 Flow 4: City Water-Irrigation-1703290.000000
+2025/01/23 12:42:53 Flow 5: River Water-Irrigation-602220.000000
+2025/01/23 12:42:53 Flow 6: Jackson-Utilities-15906628.000000
+2025/01/23 12:42:53 Flow 7: Freeman Ranch-Domestic-11970.000000
+2025/01/23 12:42:53 Flow 8: Grady Early-Spillage-200.000000
+2025/01/23 12:42:53 Flow 9: Print Shop-Spillage-310.000000
+2025/01/23 12:42:53 Flow 10: Jackson-Domestic-10464285.960000
+2025/01/23 12:42:53 Flow 11: Jackson-Unmetered-840660.040000
+2025/01/23 12:42:53 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,613 C 350,613 650,318 950,318 L 950,452 C 650,452 350,747 50,747 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,567 950,567 L 950,571 C 650,571 350,751 50,751 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,0 C 350,0 650,452 950,452 L 950,520 C 650,520 350,68 50,68 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,751 C 350,751 650,520 950,520 L 950,554 C 650,554 350,785 50,785 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,554 950,554 L 950,566 C 650,566 350,798 50,798 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 50,68 C 350,68 650,0 950,0 L 950,318 C 650,318 350,386 50,386 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,571 950,571 L 950,571 C 650,571 350,798 50,798 Z" fill="gray" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="blueviolet" fill-opacity="0.5" stroke="black" />
+<path d="M 50,386 C 350,386 650,571 950,571 L 950,779 C 650,779 350,595 50,595 Z" fill="cornflowerblue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,595 C 350,595 650,781 950,781 L 950,797 C 650,797 350,611 50,611 Z" fill="khaki" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="darkred" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="darkblue" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="darkgreen" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="darkorchid" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkorange" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkgoldenrod" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darksalmon" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkgray" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="darkcyan" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="darkkhaki" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="darkmagenta" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="darkolivegreen" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="darkseagreen" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 12:45:20 Node 0: Jackson
+2025/01/23 12:45:20 Node 1: Freeman Artesian
+2025/01/23 12:45:20 Node 2: City Water
+2025/01/23 12:45:20 Node 3: River Water
+2025/01/23 12:45:20 Node 4: Freeman Ranch
+2025/01/23 12:45:20 Node 5: Print Shop
+2025/01/23 12:45:20 Node 6: Grady Early
+2025/01/23 12:45:20 Node 7: Boiler Plant
+2025/01/23 12:45:20 Node 0: Utilities
+2025/01/23 12:45:20 Node 1: Irrigation
+2025/01/23 12:45:20 Node 2: Domestic
+2025/01/23 12:45:20 Node 3: Unmetered
+2025/01/23 12:45:20 Node 4: Spillage
+2025/01/23 12:45:20 Flow 0: Jackson-Irrigation-3415426.000000
+2025/01/23 12:45:20 Flow 1: City Water-Irrigation-1703290.000000
+2025/01/23 12:45:20 Flow 2: River Water-Irrigation-602220.000000
+2025/01/23 12:45:20 Flow 3: Jackson-Utilities-15906628.000000
+2025/01/23 12:45:20 Flow 4: Print Shop-Spillage-310.000000
+2025/01/23 12:45:20 Flow 5: Jackson-Domestic-10464285.960000
+2025/01/23 12:45:20 Flow 6: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 12:45:20 Flow 7: City Water-Domestic-244274.244000
+2025/01/23 12:45:20 Flow 8: Jackson-Unmetered-840660.040000
+2025/01/23 12:45:20 Flow 9: Boiler Plant-Spillage-200.000000
+2025/01/23 12:45:20 Flow 10: Grady Early-Spillage-200.000000
+2025/01/23 12:45:20 Flow 11: Freeman Ranch-Domestic-11970.000000
+2025/01/23 12:45:20 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,0 C 350,0 650,318 950,318 L 950,386 C 650,386 350,68 50,68 Z" fill="red" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,386 950,386 L 950,420 C 650,420 350,781 50,781 Z" fill="orange" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,420 950,420 L 950,432 C 650,432 350,798 50,798 Z" fill="yellow" fill-opacity="0.5" stroke="black" />
+<path d="M 50,68 C 350,68 650,0 950,0 L 950,318 C 650,318 350,386 50,386 Z" fill="green" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="cyan" fill-opacity="0.5" stroke="black" />
+<path d="M 50,386 C 350,386 650,567 950,567 L 950,775 C 650,775 350,595 50,595 Z" fill="blue" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,432 950,432 L 950,566 C 650,566 350,747 50,747 Z" fill="indigo" fill-opacity="0.5" stroke="black" />
+<path d="M 50,781 C 350,781 650,775 950,775 L 950,779 C 650,779 350,785 50,785 Z" fill="violet" fill-opacity="0.5" stroke="black" />
+<path d="M 50,595 C 350,595 650,781 950,781 L 950,797 C 650,797 350,611 50,611 Z" fill="purple" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="magenta" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="pink" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,779 950,779 L 950,779 C 650,779 350,798 50,798 Z" fill="brown" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="darkred" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="darkorange" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="darkyellow" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="darkgreen" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkcyan" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkblue" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkindigo" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="darkviolet" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="darkpurple" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="darkmagenta" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="darkpink" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="darkbrown" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="darkgray" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 12:59:46 Node 0: Jackson
+2025/01/23 12:59:46 Node 1: Freeman Artesian
+2025/01/23 12:59:46 Node 2: City Water
+2025/01/23 12:59:46 Node 3: River Water
+2025/01/23 12:59:46 Node 4: Freeman Ranch
+2025/01/23 12:59:46 Node 5: Print Shop
+2025/01/23 12:59:46 Node 6: Grady Early
+2025/01/23 12:59:46 Node 7: Boiler Plant
+2025/01/23 12:59:46 Node 0: Utilities
+2025/01/23 12:59:46 Node 1: Irrigation
+2025/01/23 12:59:46 Node 2: Domestic
+2025/01/23 12:59:46 Node 3: Unmetered
+2025/01/23 12:59:46 Node 4: Spillage
+2025/01/23 12:59:46 Flow 0: Jackson-Unmetered-840660.040000
+2025/01/23 12:59:46 Flow 1: Boiler Plant-Spillage-200.000000
+2025/01/23 12:59:46 Flow 2: Grady Early-Spillage-200.000000
+2025/01/23 12:59:46 Flow 3: Jackson-Domestic-10464285.960000
+2025/01/23 12:59:46 Flow 4: Jackson-Irrigation-3415426.000000
+2025/01/23 12:59:46 Flow 5: River Water-Irrigation-602220.000000
+2025/01/23 12:59:46 Flow 6: Freeman Ranch-Domestic-11970.000000
+2025/01/23 12:59:46 Flow 7: City Water-Domestic-244274.244000
+2025/01/23 12:59:46 Flow 8: Print Shop-Spillage-310.000000
+2025/01/23 12:59:46 Flow 9: City Water-Irrigation-1703290.000000
+2025/01/23 12:59:46 Flow 10: Jackson-Utilities-15906628.000000
+2025/01/23 12:59:46 Flow 11: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 12:59:46 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,0 C 350,0 650,781 950,781 L 950,797 C 650,797 350,16 50,16 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#5a961e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#5a961e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,16 C 350,16 650,567 950,567 L 950,775 C 650,775 350,225 50,225 Z" fill="#30501e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,225 C 350,225 650,318 950,318 L 950,386 C 650,386 350,293 50,293 Z" fill="#a3651e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,386 950,386 L 950,398 C 650,398 350,798 50,798 Z" fill="#365a1e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,775 950,775 L 950,775 C 650,775 350,798 50,798 Z" fill="#5a961e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,775 950,775 L 950,779 C 650,779 350,751 50,751 Z" fill="#c1971e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#5a961e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,751 C 350,751 650,398 950,398 L 950,432 C 650,432 350,785 50,785 Z" fill="#cdab1e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,293 C 350,293 650,0 950,0 L 950,318 C 650,318 350,611 50,611 Z" fill="#6fb91e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,432 950,432 L 950,566 C 650,566 350,747 50,747 Z" fill="#2ff91e" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#1ef9c3" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#1e976d" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#1e5a7e" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e96d2" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e96d2" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e96d2" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e96d2" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="#1e36b2" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#1e1381" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#1e415b" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#1e91cb" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 13:02:10 Node 0: Jackson
+2025/01/23 13:02:10 Node 1: Freeman Artesian
+2025/01/23 13:02:10 Node 2: City Water
+2025/01/23 13:02:10 Node 3: River Water
+2025/01/23 13:02:10 Node 4: Freeman Ranch
+2025/01/23 13:02:10 Node 5: Print Shop
+2025/01/23 13:02:10 Node 6: Grady Early
+2025/01/23 13:02:10 Node 7: Boiler Plant
+2025/01/23 13:02:10 Node 0: Utilities
+2025/01/23 13:02:10 Node 1: Irrigation
+2025/01/23 13:02:10 Node 2: Domestic
+2025/01/23 13:02:10 Node 3: Unmetered
+2025/01/23 13:02:10 Node 4: Spillage
+2025/01/23 13:02:10 Flow 0: Jackson-Utilities-15906628.000000
+2025/01/23 13:02:10 Flow 1: Boiler Plant-Spillage-200.000000
+2025/01/23 13:02:10 Flow 2: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 13:02:10 Flow 3: City Water-Domestic-244274.244000
+2025/01/23 13:02:10 Flow 4: Jackson-Unmetered-840660.040000
+2025/01/23 13:02:10 Flow 5: Jackson-Domestic-10464285.960000
+2025/01/23 13:02:10 Flow 6: Jackson-Irrigation-3415426.000000
+2025/01/23 13:02:10 Flow 7: City Water-Irrigation-1703290.000000
+2025/01/23 13:02:10 Flow 8: River Water-Irrigation-602220.000000
+2025/01/23 13:02:10 Flow 9: Freeman Ranch-Domestic-11970.000000
+2025/01/23 13:02:10 Flow 10: Grady Early-Spillage-200.000000
+2025/01/23 13:02:10 Flow 11: Print Shop-Spillage-310.000000
+2025/01/23 13:02:10 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,0 C 350,0 650,0 950,0 L 950,318 C 650,318 350,318 50,318 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,318 950,318 L 950,452 C 650,452 350,747 50,747 Z" fill="#02031e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,567 950,567 L 950,571 C 650,571 350,751 50,751 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,318 C 350,318 650,781 950,781 L 950,797 C 650,797 350,334 50,334 Z" fill="#01011e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,334 C 350,334 650,571 950,571 L 950,779 C 650,779 350,543 50,543 Z" fill="#01021e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,543 C 350,543 650,452 950,452 L 950,520 C 650,520 350,611 50,611 Z" fill="#02031e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,751 C 350,751 650,520 950,520 L 950,554 C 650,554 350,785 50,785 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,554 950,554 L 950,566 C 650,566 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,779 950,779 L 950,779 C 650,779 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#1e0305" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#1e0406" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#1e0406" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0406" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0406" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0406" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0406" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="#1e0102" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#1e0304" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#1e0406" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#1e0406" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 13:05:24 Node 0: Jackson
+2025/01/23 13:05:24 Node 1: Freeman Artesian
+2025/01/23 13:05:24 Node 2: City Water
+2025/01/23 13:05:24 Node 3: River Water
+2025/01/23 13:05:24 Node 4: Freeman Ranch
+2025/01/23 13:05:24 Node 5: Print Shop
+2025/01/23 13:05:24 Node 6: Grady Early
+2025/01/23 13:05:24 Node 7: Boiler Plant
+2025/01/23 13:05:24 Node 0: Utilities
+2025/01/23 13:05:24 Node 1: Irrigation
+2025/01/23 13:05:24 Node 2: Domestic
+2025/01/23 13:05:24 Node 3: Unmetered
+2025/01/23 13:05:24 Node 4: Spillage
+2025/01/23 13:05:24 Flow 0: City Water-Irrigation-1703290.000000
+2025/01/23 13:05:24 Flow 1: Jackson-Utilities-15906628.000000
+2025/01/23 13:05:24 Flow 2: Freeman Ranch-Domestic-11970.000000
+2025/01/23 13:05:24 Flow 3: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 13:05:24 Flow 4: Grady Early-Spillage-200.000000
+2025/01/23 13:05:24 Flow 5: Jackson-Domestic-10464285.960000
+2025/01/23 13:05:24 Flow 6: Jackson-Irrigation-3415426.000000
+2025/01/23 13:05:24 Flow 7: Jackson-Unmetered-840660.040000
+2025/01/23 13:05:24 Flow 8: Boiler Plant-Spillage-200.000000
+2025/01/23 13:05:24 Flow 9: Print Shop-Spillage-310.000000
+2025/01/23 13:05:24 Flow 10: River Water-Irrigation-602220.000000
+2025/01/23 13:05:24 Flow 11: City Water-Domestic-244274.244000
+2025/01/23 13:05:24 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,747 C 350,747 650,318 950,318 L 950,352 C 650,352 350,781 50,781 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,0 C 350,0 650,0 950,0 L 950,318 C 650,318 350,318 50,318 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,567 950,567 L 950,567 C 650,567 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,352 950,352 L 950,486 C 650,486 350,747 50,747 Z" fill="#02031e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,318 C 350,318 650,567 950,567 L 950,775 C 650,775 350,527 50,527 Z" fill="#01011e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,527 C 350,527 650,486 950,486 L 950,554 C 650,554 350,595 50,595 Z" fill="#01031e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,595 C 350,595 650,781 950,781 L 950,797 C 650,797 350,611 50,611 Z" fill="#02031e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,554 950,554 L 950,566 C 650,566 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,781 C 350,781 650,775 950,775 L 950,779 C 650,779 350,785 50,785 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 13:06:02 Node 0: Jackson
+2025/01/23 13:06:02 Node 1: Freeman Artesian
+2025/01/23 13:06:02 Node 2: City Water
+2025/01/23 13:06:02 Node 3: River Water
+2025/01/23 13:06:02 Node 4: Freeman Ranch
+2025/01/23 13:06:02 Node 5: Print Shop
+2025/01/23 13:06:02 Node 6: Grady Early
+2025/01/23 13:06:02 Node 7: Boiler Plant
+2025/01/23 13:06:02 Node 0: Utilities
+2025/01/23 13:06:02 Node 1: Irrigation
+2025/01/23 13:06:02 Node 2: Domestic
+2025/01/23 13:06:02 Node 3: Unmetered
+2025/01/23 13:06:02 Node 4: Spillage
+2025/01/23 13:06:02 Flow 0: Print Shop-Spillage-310.000000
+2025/01/23 13:06:02 Flow 1: Jackson-Irrigation-3415426.000000
+2025/01/23 13:06:02 Flow 2: City Water-Irrigation-1703290.000000
+2025/01/23 13:06:02 Flow 3: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 13:06:02 Flow 4: Jackson-Unmetered-840660.040000
+2025/01/23 13:06:02 Flow 5: Grady Early-Spillage-200.000000
+2025/01/23 13:06:02 Flow 6: Boiler Plant-Spillage-200.000000
+2025/01/23 13:06:02 Flow 7: Jackson-Domestic-10464285.960000
+2025/01/23 13:06:02 Flow 8: River Water-Irrigation-602220.000000
+2025/01/23 13:06:02 Flow 9: Jackson-Utilities-15906628.000000
+2025/01/23 13:06:02 Flow 10: Freeman Ranch-Domestic-11970.000000
+2025/01/23 13:06:02 Flow 11: City Water-Domestic-244274.244000
+2025/01/23 13:06:02 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,0 C 350,0 650,318 950,318 L 950,386 C 650,386 350,68 50,68 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,386 950,386 L 950,420 C 650,420 350,781 50,781 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,420 950,420 L 950,554 C 650,554 350,747 50,747 Z" fill="#02031e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,68 C 350,68 650,781 950,781 L 950,797 C 650,797 350,84 50,84 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,84 C 350,84 650,567 950,567 L 950,775 C 650,775 350,293 50,293 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,554 950,554 L 950,566 C 650,566 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,293 C 350,293 650,0 950,0 L 950,318 C 650,318 350,611 50,611 Z" fill="#01011e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,775 950,775 L 950,775 C 650,775 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,781 C 350,781 650,775 950,775 L 950,779 C 650,779 350,785 50,785 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 13:06:57 Node 0: Jackson
+2025/01/23 13:06:57 Node 1: Freeman Artesian
+2025/01/23 13:06:57 Node 2: City Water
+2025/01/23 13:06:57 Node 3: River Water
+2025/01/23 13:06:57 Node 4: Freeman Ranch
+2025/01/23 13:06:57 Node 5: Print Shop
+2025/01/23 13:06:57 Node 6: Boiler Plant
+2025/01/23 13:06:57 Node 7: Grady Early
+2025/01/23 13:06:57 Node 0: Utilities
+2025/01/23 13:06:57 Node 1: Irrigation
+2025/01/23 13:06:57 Node 2: Domestic
+2025/01/23 13:06:57 Node 3: Unmetered
+2025/01/23 13:06:57 Node 4: Spillage
+2025/01/23 13:06:57 Flow 0: City Water-Domestic-244274.244000
+2025/01/23 13:06:57 Flow 1: Boiler Plant-Spillage-200.000000
+2025/01/23 13:06:57 Flow 2: Jackson-Domestic-10464285.960000
+2025/01/23 13:06:57 Flow 3: Jackson-Irrigation-3415426.000000
+2025/01/23 13:06:57 Flow 4: River Water-Irrigation-602220.000000
+2025/01/23 13:06:57 Flow 5: Jackson-Utilities-15906628.000000
+2025/01/23 13:06:57 Flow 6: Freeman Ranch-Domestic-11970.000000
+2025/01/23 13:06:57 Flow 7: City Water-Irrigation-1703290.000000
+2025/01/23 13:06:57 Flow 8: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 13:06:57 Flow 9: Jackson-Unmetered-840660.040000
+2025/01/23 13:06:57 Flow 10: Grady Early-Spillage-200.000000
+2025/01/23 13:06:57 Flow 11: Print Shop-Spillage-310.000000
+2025/01/23 13:06:57 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,747 C 350,747 650,567 950,567 L 950,571 C 650,571 350,751 50,751 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,0 C 350,0 650,571 950,571 L 950,779 C 650,779 350,209 50,209 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,209 C 350,209 650,318 950,318 L 950,386 C 650,386 350,277 50,277 Z" fill="#00011e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,386 950,386 L 950,398 C 650,398 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,277 C 350,277 650,0 950,0 L 950,318 C 650,318 350,595 50,595 Z" fill="#01011e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,779 950,779 L 950,779 C 650,779 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,751 C 350,751 650,398 950,398 L 950,432 C 650,432 350,785 50,785 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,432 950,432 L 950,566 C 650,566 350,747 50,747 Z" fill="#02031e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,595 C 350,595 650,781 950,781 L 950,797 C 650,797 350,611 50,611 Z" fill="#02031e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 13:07:13 Node 0: Jackson
+2025/01/23 13:07:13 Node 1: Freeman Artesian
+2025/01/23 13:07:13 Node 2: City Water
+2025/01/23 13:07:13 Node 3: River Water
+2025/01/23 13:07:13 Node 4: Freeman Ranch
+2025/01/23 13:07:13 Node 5: Print Shop
+2025/01/23 13:07:13 Node 6: Boiler Plant
+2025/01/23 13:07:13 Node 7: Grady Early
+2025/01/23 13:07:13 Node 0: Utilities
+2025/01/23 13:07:13 Node 1: Irrigation
+2025/01/23 13:07:13 Node 2: Domestic
+2025/01/23 13:07:13 Node 3: Unmetered
+2025/01/23 13:07:13 Node 4: Spillage
+2025/01/23 13:07:13 Flow 0: Jackson-Unmetered-840660.040000
+2025/01/23 13:07:13 Flow 1: Boiler Plant-Spillage-200.000000
+2025/01/23 13:07:13 Flow 2: Print Shop-Spillage-310.000000
+2025/01/23 13:07:13 Flow 3: Jackson-Domestic-10464285.960000
+2025/01/23 13:07:13 Flow 4: River Water-Irrigation-602220.000000
+2025/01/23 13:07:13 Flow 5: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 13:07:13 Flow 6: Freeman Ranch-Domestic-11970.000000
+2025/01/23 13:07:13 Flow 7: City Water-Domestic-244274.244000
+2025/01/23 13:07:13 Flow 8: Grady Early-Spillage-200.000000
+2025/01/23 13:07:13 Flow 9: Jackson-Irrigation-3415426.000000
+2025/01/23 13:07:13 Flow 10: City Water-Irrigation-1703290.000000
+2025/01/23 13:07:13 Flow 11: Jackson-Utilities-15906628.000000
+2025/01/23 13:07:13 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,0 C 350,0 650,781 950,781 L 950,797 C 650,797 350,16 50,16 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,16 C 350,16 650,567 950,567 L 950,775 C 650,775 350,225 50,225 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,318 950,318 L 950,330 C 650,330 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,330 950,330 L 950,464 C 650,464 350,747 50,747 Z" fill="#02031e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,775 950,775 L 950,775 C 650,775 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,775 950,775 L 950,779 C 650,779 350,751 50,751 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,225 C 350,225 650,464 950,464 L 950,532 C 650,532 350,293 50,293 Z" fill="#00011e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,751 C 350,751 650,532 950,532 L 950,566 C 650,566 350,785 50,785 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,293 C 350,293 650,0 950,0 L 950,318 C 650,318 350,611 50,611 Z" fill="#01011e" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 13:07:39 Node 0: Jackson
+2025/01/23 13:07:39 Node 1: Freeman Artesian
+2025/01/23 13:07:39 Node 2: City Water
+2025/01/23 13:07:39 Node 3: River Water
+2025/01/23 13:07:39 Node 4: Freeman Ranch
+2025/01/23 13:07:39 Node 5: Print Shop
+2025/01/23 13:07:39 Node 6: Grady Early
+2025/01/23 13:07:39 Node 7: Boiler Plant
+2025/01/23 13:07:39 Node 0: Utilities
+2025/01/23 13:07:39 Node 1: Irrigation
+2025/01/23 13:07:39 Node 2: Domestic
+2025/01/23 13:07:39 Node 3: Unmetered
+2025/01/23 13:07:39 Node 4: Spillage
+2025/01/23 13:07:39 Flow 0: City Water-Irrigation-1703290.000000
+2025/01/23 13:07:39 Flow 1: Freeman Ranch-Domestic-11970.000000
+2025/01/23 13:07:39 Flow 2: Jackson-Unmetered-840660.040000
+2025/01/23 13:07:39 Flow 3: City Water-Domestic-244274.244000
+2025/01/23 13:07:39 Flow 4: Boiler Plant-Spillage-200.000000
+2025/01/23 13:07:39 Flow 5: Grady Early-Spillage-200.000000
+2025/01/23 13:07:39 Flow 6: Jackson-Domestic-10464285.960000
+2025/01/23 13:07:39 Flow 7: Jackson-Irrigation-3415426.000000
+2025/01/23 13:07:39 Flow 8: River Water-Irrigation-602220.000000
+2025/01/23 13:07:39 Flow 9: Jackson-Utilities-15906628.000000
+2025/01/23 13:07:39 Flow 10: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 13:07:39 Flow 11: Print Shop-Spillage-310.000000
+2025/01/23 13:07:39 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,747 C 350,747 650,318 950,318 L 950,352 C 650,352 350,781 50,781 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,567 950,567 L 950,567 C 650,567 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,0 C 350,0 650,781 950,781 L 950,797 C 650,797 350,16 50,16 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,781 C 350,781 650,567 950,567 L 950,571 C 650,571 350,785 50,785 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,16 C 350,16 650,571 950,571 L 950,779 C 650,779 350,225 50,225 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,225 C 350,225 650,352 950,352 L 950,420 C 650,420 350,293 50,293 Z" fill="#00011e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,420 950,420 L 950,432 C 650,432 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,293 C 350,293 650,0 950,0 L 950,318 C 650,318 350,611 50,611 Z" fill="#01011e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,432 950,432 L 950,566 C 650,566 350,747 50,747 Z" fill="#02031e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 13:09:28 Node 0: Jackson
+2025/01/23 13:09:28 Node 1: Freeman Artesian
+2025/01/23 13:09:28 Node 2: City Water
+2025/01/23 13:09:28 Node 3: River Water
+2025/01/23 13:09:28 Node 4: Freeman Ranch
+2025/01/23 13:09:28 Node 5: Print Shop
+2025/01/23 13:09:28 Node 6: Grady Early
+2025/01/23 13:09:28 Node 7: Boiler Plant
+2025/01/23 13:09:28 Node 0: Utilities
+2025/01/23 13:09:28 Node 1: Irrigation
+2025/01/23 13:09:28 Node 2: Domestic
+2025/01/23 13:09:28 Node 3: Unmetered
+2025/01/23 13:09:28 Node 4: Spillage
+2025/01/23 13:09:28 Flow 0: Grady Early-Spillage-200.000000
+2025/01/23 13:09:28 Flow 1: Jackson-Domestic-10464285.960000
+2025/01/23 13:09:28 Flow 2: Jackson-Irrigation-3415426.000000
+2025/01/23 13:09:28 Flow 3: Jackson-Utilities-15906628.000000
+2025/01/23 13:09:28 Flow 4: Freeman Ranch-Domestic-11970.000000
+2025/01/23 13:09:28 Flow 5: Jackson-Unmetered-840660.040000
+2025/01/23 13:09:28 Flow 6: Boiler Plant-Spillage-200.000000
+2025/01/23 13:09:28 Flow 7: City Water-Irrigation-1703290.000000
+2025/01/23 13:09:28 Flow 8: River Water-Irrigation-602220.000000
+2025/01/23 13:09:28 Flow 9: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 13:09:28 Flow 10: City Water-Domestic-244274.244000
+2025/01/23 13:09:28 Flow 11: Print Shop-Spillage-310.000000
+2025/01/23 13:09:28 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,0 C 350,0 650,567 950,567 L 950,775 C 650,775 350,209 50,209 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,209 C 350,209 650,318 950,318 L 950,386 C 650,386 350,277 50,277 Z" fill="#00011e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,277 C 350,277 650,0 950,0 L 950,318 C 650,318 350,595 50,595 Z" fill="#01011e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,775 950,775 L 950,775 C 650,775 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,595 C 350,595 650,781 950,781 L 950,797 C 650,797 350,611 50,611 Z" fill="#02031e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,386 950,386 L 950,420 C 650,420 350,781 50,781 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,420 950,420 L 950,432 C 650,432 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,432 950,432 L 950,566 C 650,566 350,747 50,747 Z" fill="#02031e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,781 C 350,781 650,775 950,775 L 950,779 C 650,779 350,785 50,785 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#1e4c4c" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#1e5d5d" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#1e6262" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e6363" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e6363" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e6363" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1e6363" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="#1e2727" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#1e4646" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#1e6161" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#1e6363" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 13:10:11 Node 0: Jackson
+2025/01/23 13:10:11 Node 1: Freeman Artesian
+2025/01/23 13:10:11 Node 2: City Water
+2025/01/23 13:10:11 Node 3: River Water
+2025/01/23 13:10:11 Node 4: Freeman Ranch
+2025/01/23 13:10:11 Node 5: Print Shop
+2025/01/23 13:10:11 Node 6: Grady Early
+2025/01/23 13:10:11 Node 7: Boiler Plant
+2025/01/23 13:10:11 Node 0: Utilities
+2025/01/23 13:10:11 Node 1: Irrigation
+2025/01/23 13:10:11 Node 2: Domestic
+2025/01/23 13:10:11 Node 3: Unmetered
+2025/01/23 13:10:11 Node 4: Spillage
+2025/01/23 13:10:11 Flow 0: Jackson-Irrigation-3415426.000000
+2025/01/23 13:10:11 Flow 1: City Water-Irrigation-1703290.000000
+2025/01/23 13:10:11 Flow 2: Jackson-Utilities-15906628.000000
+2025/01/23 13:10:11 Flow 3: Freeman Ranch-Domestic-11970.000000
+2025/01/23 13:10:11 Flow 4: City Water-Domestic-244274.244000
+2025/01/23 13:10:11 Flow 5: Jackson-Unmetered-840660.040000
+2025/01/23 13:10:11 Flow 6: Print Shop-Spillage-310.000000
+2025/01/23 13:10:11 Flow 7: Jackson-Domestic-10464285.960000
+2025/01/23 13:10:11 Flow 8: River Water-Irrigation-602220.000000
+2025/01/23 13:10:11 Flow 9: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 13:10:11 Flow 10: Boiler Plant-Spillage-200.000000
+2025/01/23 13:10:11 Flow 11: Grady Early-Spillage-200.000000
+2025/01/23 13:10:11 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,0 C 350,0 650,318 950,318 L 950,386 C 650,386 350,68 50,68 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,386 950,386 L 950,420 C 650,420 350,781 50,781 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,68 C 350,68 650,0 950,0 L 950,318 C 650,318 350,386 50,386 Z" fill="#00001e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,567 950,567 L 950,567 C 650,567 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,781 C 350,781 650,567 950,567 L 950,571 C 650,571 350,785 50,785 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,386 C 350,386 650,781 950,781 L 950,797 C 650,797 350,402 50,402 Z" fill="#01021e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,402 C 350,402 650,571 950,571 L 950,779 C 650,779 350,611 50,611 Z" fill="#01021e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,420 950,420 L 950,432 C 650,432 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,432 950,432 L 950,566 C 650,566 350,747 50,747 Z" fill="#02031e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#02041e" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#1e984c" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#1eba5d" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#1ec462" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1ec663" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1ec663" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1ec663" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#1ec663" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="#1e0000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="#1e4e27" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#1e8c46" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#1ec261" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#1ec663" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 13:11:16 Node 0: Jackson
+2025/01/23 13:11:16 Node 1: Freeman Artesian
+2025/01/23 13:11:16 Node 2: City Water
+2025/01/23 13:11:16 Node 3: River Water
+2025/01/23 13:11:16 Node 4: Freeman Ranch
+2025/01/23 13:11:16 Node 5: Print Shop
+2025/01/23 13:11:16 Node 6: Boiler Plant
+2025/01/23 13:11:16 Node 7: Grady Early
+2025/01/23 13:11:16 Node 0: Utilities
+2025/01/23 13:11:16 Node 1: Irrigation
+2025/01/23 13:11:16 Node 2: Domestic
+2025/01/23 13:11:16 Node 3: Unmetered
+2025/01/23 13:11:16 Node 4: Spillage
+2025/01/23 13:11:16 Flow 0: Boiler Plant-Spillage-200.000000
+2025/01/23 13:11:16 Flow 1: Grady Early-Spillage-200.000000
+2025/01/23 13:11:16 Flow 2: Jackson-Domestic-10464285.960000
+2025/01/23 13:11:16 Flow 3: Jackson-Irrigation-3415426.000000
+2025/01/23 13:11:16 Flow 4: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 13:11:16 Flow 5: Jackson-Unmetered-840660.040000
+2025/01/23 13:11:16 Flow 6: City Water-Domestic-244274.244000
+2025/01/23 13:11:16 Flow 7: Print Shop-Spillage-310.000000
+2025/01/23 13:11:16 Flow 8: City Water-Irrigation-1703290.000000
+2025/01/23 13:11:16 Flow 9: River Water-Irrigation-602220.000000
+2025/01/23 13:11:16 Flow 10: Jackson-Utilities-15906628.000000
+2025/01/23 13:11:16 Flow 11: Freeman Ranch-Domestic-11970.000000
+2025/01/23 13:11:16 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#63c663" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#63c663" fill-opacity="0.5" stroke="black" />
+<path d="M 50,0 C 350,0 650,567 950,567 L 950,775 C 650,775 350,209 50,209 Z" fill="#000063" fill-opacity="0.5" stroke="black" />
+<path d="M 50,209 C 350,209 650,318 950,318 L 950,386 C 650,386 350,277 50,277 Z" fill="#1a3463" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,386 950,386 L 950,520 C 650,520 350,747 50,747 Z" fill="#4c9863" fill-opacity="0.5" stroke="black" />
+<path d="M 50,277 C 350,277 650,781 950,781 L 950,797 C 650,797 350,293 50,293 Z" fill="#224463" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,775 950,775 L 950,779 C 650,779 350,751 50,751 Z" fill="#5dba63" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#63c663" fill-opacity="0.5" stroke="black" />
+<path d="M 50,751 C 350,751 650,520 950,520 L 950,554 C 650,554 350,785 50,785 Z" fill="#5dba63" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,554 950,554 L 950,566 C 650,566 350,798 50,798 Z" fill="#62c463" fill-opacity="0.5" stroke="black" />
+<path d="M 50,293 C 350,293 650,0 950,0 L 950,318 C 650,318 350,611 50,611 Z" fill="#244863" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,779 950,779 L 950,779 C 650,779 350,798 50,798 Z" fill="#63c663" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#630000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#63984c" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#63ba5d" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#63c462" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#63c663" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#63c663" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#63c663" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#63c663" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="#630000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="#634e27" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#638c46" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#63c261" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#63c663" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 13:11:58 Node 0: Jackson
+2025/01/23 13:11:58 Node 1: Freeman Artesian
+2025/01/23 13:11:58 Node 2: City Water
+2025/01/23 13:11:58 Node 3: River Water
+2025/01/23 13:11:58 Node 4: Freeman Ranch
+2025/01/23 13:11:58 Node 5: Print Shop
+2025/01/23 13:11:58 Node 6: Grady Early
+2025/01/23 13:11:58 Node 7: Boiler Plant
+2025/01/23 13:11:58 Node 0: Utilities
+2025/01/23 13:11:58 Node 1: Irrigation
+2025/01/23 13:11:58 Node 2: Domestic
+2025/01/23 13:11:58 Node 3: Unmetered
+2025/01/23 13:11:58 Node 4: Spillage
+2025/01/23 13:11:58 Flow 0: Jackson-Domestic-10464285.960000
+2025/01/23 13:11:58 Flow 1: Jackson-Irrigation-3415426.000000
+2025/01/23 13:11:58 Flow 2: City Water-Irrigation-1703290.000000
+2025/01/23 13:11:58 Flow 3: River Water-Irrigation-602220.000000
+2025/01/23 13:11:58 Flow 4: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 13:11:58 Flow 5: City Water-Domestic-244274.244000
+2025/01/23 13:11:58 Flow 6: Jackson-Utilities-15906628.000000
+2025/01/23 13:11:58 Flow 7: Freeman Ranch-Domestic-11970.000000
+2025/01/23 13:11:58 Flow 8: Jackson-Unmetered-840660.040000
+2025/01/23 13:11:58 Flow 9: Boiler Plant-Spillage-200.000000
+2025/01/23 13:11:58 Flow 10: Grady Early-Spillage-200.000000
+2025/01/23 13:11:58 Flow 11: Print Shop-Spillage-310.000000
+2025/01/23 13:11:58 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,0 C 350,0 650,567 950,567 L 950,775 C 650,775 350,209 50,209 Z" fill="#0000b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,209 C 350,209 650,318 950,318 L 950,386 C 650,386 350,277 50,277 Z" fill="#1a34b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,386 950,386 L 950,420 C 650,420 350,781 50,781 Z" fill="#5dbab4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,420 950,420 L 950,432 C 650,432 350,798 50,798 Z" fill="#62c4b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,432 950,432 L 950,566 C 650,566 350,747 50,747 Z" fill="#4c98b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,781 C 350,781 650,775 950,775 L 950,779 C 650,779 350,785 50,785 Z" fill="#61c2b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,277 C 350,277 650,0 950,0 L 950,318 C 650,318 350,595 50,595 Z" fill="#2244b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,779 950,779 L 950,779 C 650,779 350,798 50,798 Z" fill="#63c6b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,595 C 350,595 650,781 950,781 L 950,797 C 650,797 350,611 50,611 Z" fill="#4a94b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#63c6b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#63c6b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#63c6b4" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#b40000" fill-opacity="0.5" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#b4984c" fill-opacity="0.5" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#b4ba5d" fill-opacity="0.5" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#b4c462" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#b4c663" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#b4c663" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#b4c663" fill-opacity="0.5" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#b4c663" fill-opacity="0.5" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="#b40000" fill-opacity="0.5" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="#b44e27" fill-opacity="0.5" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#b48c46" fill-opacity="0.5" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#b4c261" fill-opacity="0.5" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#b4c663" fill-opacity="0.5" stroke="black" />
+</svg>
+2025/01/23 13:13:13 Node 0: Jackson
+2025/01/23 13:13:13 Node 1: Freeman Artesian
+2025/01/23 13:13:13 Node 2: City Water
+2025/01/23 13:13:13 Node 3: River Water
+2025/01/23 13:13:13 Node 4: Freeman Ranch
+2025/01/23 13:13:13 Node 5: Print Shop
+2025/01/23 13:13:13 Node 6: Boiler Plant
+2025/01/23 13:13:13 Node 7: Grady Early
+2025/01/23 13:13:13 Node 0: Utilities
+2025/01/23 13:13:13 Node 1: Irrigation
+2025/01/23 13:13:13 Node 2: Domestic
+2025/01/23 13:13:13 Node 3: Unmetered
+2025/01/23 13:13:13 Node 4: Spillage
+2025/01/23 13:13:13 Flow 0: Jackson-Domestic-10464285.960000
+2025/01/23 13:13:13 Flow 1: Jackson-Irrigation-3415426.000000
+2025/01/23 13:13:13 Flow 2: City Water-Irrigation-1703290.000000
+2025/01/23 13:13:13 Flow 3: River Water-Irrigation-602220.000000
+2025/01/23 13:13:13 Flow 4: Freeman Artesian-Irrigation-6716440.812000
+2025/01/23 13:13:13 Flow 5: City Water-Domestic-244274.244000
+2025/01/23 13:13:13 Flow 6: Jackson-Unmetered-840660.040000
+2025/01/23 13:13:13 Flow 7: Grady Early-Spillage-200.000000
+2025/01/23 13:13:13 Flow 8: Print Shop-Spillage-310.000000
+2025/01/23 13:13:13 Flow 9: Jackson-Utilities-15906628.000000
+2025/01/23 13:13:13 Flow 10: Freeman Ranch-Domestic-11970.000000
+2025/01/23 13:13:13 Flow 11: Boiler Plant-Spillage-200.000000
+2025/01/23 13:13:13 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+<path d="M 50,0 C 350,0 650,567 950,567 L 950,775 C 650,775 350,209 50,209 Z" fill="#0000b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,209 C 350,209 650,318 950,318 L 950,386 C 650,386 350,277 50,277 Z" fill="#1a34b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,747 C 350,747 650,386 950,386 L 950,420 C 650,420 350,781 50,781 Z" fill="#5dbab4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,786 C 350,786 650,420 950,420 L 950,432 C 650,432 350,798 50,798 Z" fill="#62c4b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,613 C 350,613 650,432 950,432 L 950,566 C 650,566 350,747 50,747 Z" fill="#4c98b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,781 C 350,781 650,775 950,775 L 950,779 C 650,779 350,785 50,785 Z" fill="#61c2b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,277 C 350,277 650,781 950,781 L 950,797 C 650,797 350,293 50,293 Z" fill="#2244b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#63c6b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#63c6b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,293 C 350,293 650,0 950,0 L 950,318 C 650,318 350,611 50,611 Z" fill="#2448b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,779 950,779 L 950,779 C 650,779 350,798 50,798 Z" fill="#63c6b4" fill-opacity="0.5" stroke="black" />
+<path d="M 50,798 C 350,798 650,797 950,797 L 950,797 C 650,797 350,798 50,798 Z" fill="#63c6b4" fill-opacity="0.5" stroke="black" />
+<path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#b40000" fill-opacity="1.0" stroke="black" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#b4984c" fill-opacity="1.0" stroke="black" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#b4ba5d" fill-opacity="1.0" stroke="black" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#b4c462" fill-opacity="1.0" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#b4c663" fill-opacity="1.0" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#b4c663" fill-opacity="1.0" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#b4c663" fill-opacity="1.0" stroke="black" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#b4c663" fill-opacity="1.0" stroke="black" />
+<path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="#b40000" fill-opacity="1.0" stroke="black" />
+<path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="#b44e27" fill-opacity="1.0" stroke="black" />
+<path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#b48c46" fill-opacity="1.0" stroke="black" />
+<path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#b4c261" fill-opacity="1.0" stroke="black" />
+<path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#b4c663" fill-opacity="1.0" stroke="black" />
+</svg>

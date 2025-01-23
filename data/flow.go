@@ -1,18 +1,22 @@
 package data
 
 type Flow struct {
-	Source   string
-	Target   string
-	Value    float64
-	Start    Point
-	End      Point
-	Control1 Point
-	Control2 Point
+	Source      string
+	Target      string
+	Value       float64
+	Topleft     Point
+	Bottomleft  Point
+	Topright    Point
+	Bottomright Point
+	Control1    Point
+	Control2    Point
 }
 
 const (
-	START = iota
-	END
+	TOPL = iota
+	TOPR
+	BOTL
+	BOTR
 	CONTROL1
 	CONTROL2
 )
@@ -24,10 +28,14 @@ type Point struct {
 
 func (f *Flow) SetPoint(p, x, y int) {
 	switch p {
-	case START:
-		f.Start = Point{x, y}
-	case END:
-		f.End = Point{x, y}
+	case TOPL:
+		f.Topleft = Point{x, y}
+	case TOPR:
+		f.Topright = Point{x, y}
+	case BOTL:
+		f.Bottomleft = Point{x, y}
+	case BOTR:
+		f.Bottomright = Point{x, y}
 	case CONTROL1:
 		f.Control1 = Point{x, y}
 	case CONTROL2:

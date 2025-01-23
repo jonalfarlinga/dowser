@@ -32,6 +32,7 @@ func LoadData(filePath string) error {
 		row := make(map[string]string)
 		for i, header := range headers {
 			row[header] = record[i]
+			fmt.Println(record[i])
 		}
 		records = append(records, row)
 	}
@@ -50,6 +51,39 @@ func groupByColumn(records []map[string]string, columnName string) map[string]fl
 		grouped[key] += value
 	}
 	return grouped
+}
+
+func ConsolidateRecords(records []map[string]string, columns []string) []map[string]string {
+	consolidated := make(map[string]map[string]string)
+	for _, record := range records {
+		key := ""
+		for _, column := range columns {
+			key += record[column] + "|"
+		}
+		if _, exists := consolidated[key]; !exists {
+			consolidated[key] = make(map[string]string)
+			for k, v := range record {
+				consolidated[key][k] = v
+			}
+		} else {
+			value, err := strconv.ParseFloat(record["gals"], 64)
+			if err != nil {
+				continue
+			}
+			existingValue, err := strconv.ParseFloat(consolidated[key]["gals"], 64)
+			if err != nil {
+				continue
+			}
+			consolidated[key]["gals"] = strconv.FormatFloat(existingValue+value, 'f', -1, 64)
+		}
+	}
+
+	var result []map[string]string
+	for _, record := range consolidated {
+		result = append(result, record)
+	}
+	Data = result
+	return result
 }
 
 func createNodes(grouped map[string]float64, level int) []Node {

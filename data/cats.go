@@ -34,3 +34,13 @@ func (cl *CategoryLevel) SetNodePositions(levels int) {
 		lastY += height
 	}
 }
+
+func (cl *CategoryLevel) Sort() {
+	for i := range cl.Nodes {
+		for j := range cl.Nodes {
+			if cl.Nodes[i].TotalFlow > cl.Nodes[j].TotalFlow {
+				cl.Nodes[i], cl.Nodes[j] = cl.Nodes[j], cl.Nodes[i]
+			}
+		}
+	}
+}
