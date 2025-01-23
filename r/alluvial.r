@@ -22,7 +22,11 @@ if(!is_alluvia_form(data, key = c("Source", "Use", "Building"), value = "gals"))
 
 # Create the alluvial plot
 p <- ggplot(data,
-            aes(axis1 = Source, axis2 = Building, axis3 = Use, y = gals)) +
+            aes(
+                axis1 = Source,
+                axis2 = Use,
+                axis3 = Building,
+                y = gals)) +
      geom_alluvium(aes(fill = Source), width = 1/12) +
      geom_stratum(width = 1/12, fill = "grey", color = "black") +
     #  geom_text(stat = "stratum", aes(label = after_stat(stratum)), size = 3) +
@@ -43,4 +47,4 @@ p <- p + geom_text_repel(
 )
 
 # Save the plot as a PNG file
-ggsave(output_file, plot = p, width = 10, height = 6, dpi = 300)
+ggsave(output_file, plot = p, width = 20, height = 12, dpi = 300)
