@@ -44,5 +44,11 @@ func main() {
 		log.Fatalf("Error setting flows positions: %v", err)
 	}
 
-	log.Print(draw.DrawChart(flows, nodes))
+	output := draw.DrawChart(flows, nodes)
+	log.Println(output)
+	outputBytes := []byte(output)
+	err = os.WriteFile("output.svg", outputBytes, 0666)
+	if err != nil {
+		log.Fatalf("Error writing output file: %v", err)
+	}
 }
