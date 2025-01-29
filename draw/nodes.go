@@ -84,12 +84,11 @@ func connectNodeLabel(label *Label) string {
 	if label.nodeY == label.y {
 		return ""
 	}
-	// xAtEdge := label.x == label.nodeX
 	label.x += settings.NODE_WIDTH
 	anchorX := label.x
 	if !label.leftAnchor {
 		label.x -= settings.NODE_WIDTH + 25
-		anchorX = label.x + getTextWidth(label.text)
+		anchorX = label.x + getTextWidth(label.text)-5
 	}
 	line := fmt.Sprintf(
 		"<line x1=\"%d\" y1=\"%d\" x2=\"%d\" y2=\"%d\" stroke=\"black\" />\n",

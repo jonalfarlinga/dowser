@@ -15,14 +15,14 @@ func main() {
 	defer file.Close()
 	log.SetOutput(file)
 
-	err = data.LoadData("10_24_chart.csv")
+	nodeCols := []string{"Source", "Use"}
+	volumes := "gals"
+	filepath := "10_24_chart.csv"
+	err = data.LoadData(filepath)
 	if err != nil {
 		log.Fatalf("Error loading data: %v", err)
 	}
-	nodeCols := []string{"Source", "Use"}
-	volumes := "gals"
 	data.ConsolidateRecords(data.Data, nodeCols)
-
 	catsLevels, err := data.GetLevels(nodeCols)
 	if err != nil {
 		log.Fatalf("Error getting levels: %v", err)

@@ -33,14 +33,14 @@
 <text x="862" y="785" font-size="12">Unmetered</text>
 <text x="100" y="755" font-size="12">River Water</text>
 <text x="869" y="795" font-size="12">Spillage</text>
-<text x="100" y="765" font-size="12">Boiler Plant</text>
-<text x="100" y="775" font-size="12">Grady Early</text>
+<text x="100" y="765" font-size="12">Grady Early</text>
+<text x="100" y="775" font-size="12">Boiler Plant</text>
 <text x="100" y="785" font-size="12">Print Shop</text>
 <text x="100" y="795" font-size="12">Freeman Ranch</text>
 <line x1="100" y1="740" x2="50" y2="766" stroke="black" />
-<line x1="925" y1="780" x2="950" y2="789" stroke="black" />
+<line x1="920" y1="780" x2="950" y2="789" stroke="black" />
 <line x1="100" y1="750" x2="50" y2="792" stroke="black" />
-<line x1="925" y1="790" x2="950" y2="797" stroke="black" />
+<line x1="920" y1="790" x2="950" y2="797" stroke="black" />
 <line x1="100" y1="760" x2="50" y2="798" stroke="black" />
 <line x1="100" y1="770" x2="50" y2="798" stroke="black" />
 <line x1="100" y1="780" x2="50" y2="798" stroke="black" />
