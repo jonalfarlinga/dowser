@@ -63,6 +63,14 @@ func SetFlowsPositions(flows []data.Flow, nodes []data.Node) error {
 func getFlowsPaths(flows []data.Flow) []string {
 	f := make([]string, 0)
 	for i := range flows {
+		leftHeight := flows[i].Bottomleft.Y - flows[i].Topleft.Y
+		rightHeight := flows[i].Bottomright.Y - flows[i].Topright.Y
+		if leftHeight < 2 && rightHeight < 2 {
+			flows[i].Topleft.Y -= 1
+			flows[i].Topright.Y -= 1
+			flows[i].Bottomleft.Y += 1
+			flows[i].Bottomright.Y += 1 - rightHeight
+		}
 		width := flows[i].Topright.X - flows[i].Topleft.X
 		control1T := data.Point{
 			X: flows[i].Topleft.X + width/2,

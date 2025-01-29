@@ -1,16 +1,16 @@
 <svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
-<path d="M 50,613 C 500,613 500,318 950,318 L 950,452 C 500,452 500,747 50,747 Z" fill="#4c98b4" fill-opacity="0.5" />
-<path d="M 50,0 C 500,0 500,781 950,781 L 950,797 C 500,797 500,16 50,16 Z" fill="#0000b4" fill-opacity="0.5" />
-<path d="M 50,798 C 500,798 500,797 950,797 L 950,797 C 500,797 500,798 50,798 Z" fill="#63c6b4" fill-opacity="0.5" />
-<path d="M 50,798 C 500,798 500,797 950,797 L 950,797 C 500,797 500,798 50,798 Z" fill="#63c6b4" fill-opacity="0.5" />
-<path d="M 50,16 C 500,16 500,567 950,567 L 950,775 C 500,775 500,225 50,225 Z" fill="#0204b4" fill-opacity="0.5" />
-<path d="M 50,225 C 500,225 500,0 950,0 L 950,318 C 500,318 500,543 50,543 Z" fill="#1c38b4" fill-opacity="0.5" />
-<path d="M 50,786 C 500,786 500,452 950,452 L 950,464 C 500,464 500,798 50,798 Z" fill="#62c4b4" fill-opacity="0.5" />
-<path d="M 50,798 C 500,798 500,775 950,775 L 950,775 C 500,775 500,798 50,798 Z" fill="#63c6b4" fill-opacity="0.5" />
-<path d="M 50,747 C 500,747 500,775 950,775 L 950,779 C 500,779 500,751 50,751 Z" fill="#5dbab4" fill-opacity="0.5" />
-<path d="M 50,798 C 500,798 500,797 950,797 L 950,797 C 500,797 500,798 50,798 Z" fill="#63c6b4" fill-opacity="0.5" />
-<path d="M 50,543 C 500,543 500,464 950,464 L 950,532 C 500,532 500,611 50,611 Z" fill="#4386b4" fill-opacity="0.5" />
-<path d="M 50,751 C 500,751 500,532 950,532 L 950,566 C 500,566 500,785 50,785 Z" fill="#5dbab4" fill-opacity="0.5" />
+<path d="M 50,0 C 500,0 500,0 950,0 L 950,318 C 500,318 500,318 50,318 Z" fill="#000050" fill-opacity="0.25" stroke-width="2" />
+<path d="M 50,318 C 500,318 500,567 950,567 L 950,775 C 500,775 500,527 50,527 Z" fill="#1d2750" fill-opacity="0.25" stroke-width="2" />
+<path d="M 50,613 C 500,613 500,318 950,318 L 950,452 C 500,452 500,747 50,747 Z" fill="#394c50" fill-opacity="0.25" stroke-width="2" />
+<path d="M 50,527 C 500,527 500,452 950,452 L 950,520 C 500,520 500,595 50,595 Z" fill="#304150" fill-opacity="0.25" stroke-width="2" />
+<path d="M 50,747 C 500,747 500,520 950,520 L 950,554 C 500,554 500,781 50,781 Z" fill="#455d50" fill-opacity="0.25" stroke-width="2" />
+<path d="M 50,595 C 500,595 500,781 950,781 L 950,797 C 500,797 500,611 50,611 Z" fill="#374a50" fill-opacity="0.25" stroke-width="2" />
+<path d="M 50,786 C 500,786 500,554 950,554 L 950,566 C 500,566 500,798 50,798 Z" fill="#496250" fill-opacity="0.25" stroke-width="2" />
+<path d="M 50,781 C 500,781 500,775 950,775 L 950,779 C 500,779 500,785 50,785 Z" fill="#486150" fill-opacity="0.25" stroke-width="2" />
+<path d="M 50,797 C 500,797 500,778 950,778 L 950,780 C 500,780 500,799 50,799 Z" fill="#4a6350" fill-opacity="0.25" stroke-width="2" />
+<path d="M 50,797 C 500,797 500,796 950,796 L 950,798 C 500,798 500,799 50,799 Z" fill="#4a6350" fill-opacity="0.25" stroke-width="2" />
+<path d="M 50,797 C 500,797 500,796 950,796 L 950,798 C 500,798 500,799 50,799 Z" fill="#4a6350" fill-opacity="0.25" stroke-width="2" />
+<path d="M 50,797 C 500,797 500,796 950,796 L 950,798 C 500,798 500,799 50,799 Z" fill="#4a6350" fill-opacity="0.25" stroke-width="2" />
 <path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#0000fa" fill-opacity="1.0" />
 <path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#4c98fa" fill-opacity="1.0" />
 <path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#5dbafa" fill-opacity="1.0" />
@@ -24,23 +24,25 @@
 <path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#468cfa" fill-opacity="1.0" />
 <path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#61c2fa" fill-opacity="1.0" />
 <path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#63c6fa" fill-opacity="1.0" />
-<text x="900" y="159" font-size="12">Utilities</text>
-<text x="100" y="306" font-size="12">Jackson</text>
-<text x="900" y="442" font-size="12">Irrigation</text>
-<text x="900" y="674" font-size="12">Domestic</text>
-<text x="100" y="680" font-size="12">Freeman Artesian</text>
-<text x="100" y="748" font-size="12">City Water</text>
-<text x="900" y="787" font-size="12">Unmetered</text>
-<text x="100" y="758" font-size="12">River Water</text>
-<text x="900" y="797" font-size="12">Spillage</text>
-<text x="100" y="768" font-size="12">Boiler Plant</text>
-<text x="100" y="778" font-size="12">Grady Early</text>
-<text x="100" y="788" font-size="12">Print Shop</text>
-<text x="100" y="798" font-size="12">Freeman Ranch</text>
-<line x1="100" y1="748" x2="50" y2="766" stroke="black" />
-<line x1="900" y1="787" x2="950" y2="789" stroke="black" />
-<line x1="100" y1="758" x2="50" y2="792" stroke="black" />
-<line x1="100" y1="768" x2="50" y2="798" stroke="black" />
-<line x1="100" y1="778" x2="50" y2="798" stroke="black" />
-<line x1="100" y1="788" x2="50" y2="798" stroke="black" />
+<text x="887" y="159" font-size="12">Utilities</text>
+<text x="50" y="306" font-size="12">Jackson</text>
+<text x="880" y="442" font-size="12">Irrigation</text>
+<text x="894" y="674" font-size="12">Domestic</text>
+<text x="50" y="680" font-size="12">Freeman Artesian</text>
+<text x="100" y="745" font-size="12">City Water</text>
+<text x="862" y="785" font-size="12">Unmetered</text>
+<text x="100" y="755" font-size="12">River Water</text>
+<text x="869" y="795" font-size="12">Spillage</text>
+<text x="100" y="765" font-size="12">Boiler Plant</text>
+<text x="100" y="775" font-size="12">Grady Early</text>
+<text x="100" y="785" font-size="12">Print Shop</text>
+<text x="100" y="795" font-size="12">Freeman Ranch</text>
+<line x1="100" y1="740" x2="50" y2="766" stroke="black" />
+<line x1="925" y1="780" x2="950" y2="789" stroke="black" />
+<line x1="100" y1="750" x2="50" y2="792" stroke="black" />
+<line x1="925" y1="790" x2="950" y2="797" stroke="black" />
+<line x1="100" y1="760" x2="50" y2="798" stroke="black" />
+<line x1="100" y1="770" x2="50" y2="798" stroke="black" />
+<line x1="100" y1="780" x2="50" y2="798" stroke="black" />
+<line x1="100" y1="790" x2="50" y2="798" stroke="black" />
 </svg>

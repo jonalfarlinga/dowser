@@ -12,9 +12,10 @@ import (
 )
 
 type Label struct {
-	X, Y         int
+	x, y         int
 	nodeX, nodeY int
-	Text         string
+	leftAnchor   bool
+	text         string
 }
 
 func getNodesPaths(nodes []data.Node) []string {
@@ -44,18 +45,21 @@ func getNodesLabels(nodes []data.Node) string {
 		midY := nodes[i].GetPosition().Y + nodes[i].GetHeight()/2
 		edgeX := nodes[i].GetPosition().X + settings.NODE_WIDTH
 		textX := edgeX
+		leftAnchor := true
 		if edgeX >= settings.CHART_WIDTH {
 			edgeX = nodes[i].GetPosition().X
-			textX = edgeX - settings.NODE_WIDTH
+			textX = edgeX - getTextWidth(nodes[i].Label)
+			leftAnchor = false
 		}
 		labels = append(
 			labels,
 			Label{
-				X:     textX,
-				Y:     midY,
-				nodeX: edgeX,
-				nodeY: midY,
-				Text:  nodes[i].Label,
+				x:          textX,
+				y:          midY,
+				nodeX:      edgeX,
+				nodeY:      midY,
+				leftAnchor: leftAnchor,
+				text:       nodes[i].Label,
 			})
 	}
 
@@ -65,48 +69,65 @@ func getNodesLabels(nodes []data.Node) string {
 	text := ""
 	lines := ""
 	for i := range labels {
+		lines += connectNodeLabel(&labels[i])
+
 		text += fmt.Sprintf(
 			"<text x=\"%d\" y=\"%d\" font-size=\"12\">%s</text>\n",
-			labels[i].X, labels[i].Y, labels[i].Text,
+			labels[i].x, labels[i].y, labels[i].text,
 		)
-		if labels[i].nodeY != labels[i].Y {
-			lines += fmt.Sprintf(
-				"<line x1=\"%d\" y1=\"%d\" x2=\"%d\" y2=\"%d\" stroke=\"black\" />\n",
-				labels[i].X, labels[i].Y, labels[i].nodeX, labels[i].nodeY,
-			)
-		}
+		log.Println(labels[i].text, labels[i].x, labels[i].y, labels[i].nodeX, labels[i].nodeY)
 	}
 	return text + lines
+}
+
+func connectNodeLabel(label *Label) string {
+	if label.nodeY == label.y {
+		return ""
+	}
+	// xAtEdge := label.x == label.nodeX
+	label.x += settings.NODE_WIDTH
+	anchorX := label.x
+	if !label.leftAnchor {
+		label.x -= settings.NODE_WIDTH + 25
+		anchorX = label.x + getTextWidth(label.text)
+	}
+	line := fmt.Sprintf(
+		"<line x1=\"%d\" y1=\"%d\" x2=\"%d\" y2=\"%d\" stroke=\"black\" />\n",
+		anchorX, label.y-5, label.nodeX, label.nodeY,
+	)
+	log.Println(line)
+
+	return line
 }
 
 func checkTextOverlap(labels []Label) []Label {
 	adjusted := true
 	sort.Slice(labels, func(i, j int) bool {
-		return labels[i].Y < labels[j].Y
+		return labels[i].y < labels[j].y
 	})
 	for adjusted {
 		adjusted = false
 		nextY := make(map[int]int)
 		for i := 0; i < len(labels); i++ {
-			if labels[i].Y > settings.CHART_HEIGHT/2 {
+			if labels[i].y > settings.CHART_HEIGHT/2 {
 				continue
 			}
-			if labels[i].Y < getY(nextY, labels[i].X) {
-				labels[i].Y = getY(nextY, labels[i].X)
+			if labels[i].y < getY(nextY, labels[i].nodeX) {
+				labels[i].y = getY(nextY, labels[i].nodeX)
 				adjusted = true
 			}
-			putY(nextY, labels[i].X, labels[i].Y+10)
+			putY(nextY, labels[i].nodeX, labels[i].y+10)
 		}
 		nextY = endY(nextY)
 		for i := len(labels) - 1; i >= 0; i-- {
-			if labels[i].Y < settings.CHART_HEIGHT/2 {
+			if labels[i].y < settings.CHART_HEIGHT/2 {
 				continue
 			}
-			if labels[i].Y > getY(nextY, labels[i].X) {
-				labels[i].Y = getY(nextY, labels[i].X)
+			if labels[i].y > getY(nextY, labels[i].nodeX) {
+				labels[i].y = getY(nextY, labels[i].nodeX)
 				adjusted = true
 			}
-			putY(nextY, labels[i].X, labels[i].Y-10)
+			putY(nextY, labels[i].nodeX, labels[i].y-10)
 		}
 	}
 	return labels
@@ -128,7 +149,7 @@ func getY(m map[int]int, key int) int {
 
 func endY(m map[int]int) map[int]int {
 	for k := range m {
-		m[k] = settings.CHART_HEIGHT
+		m[k] = settings.CHART_HEIGHT - 5
 	}
 	return m
 }

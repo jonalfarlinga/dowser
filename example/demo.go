@@ -5,7 +5,6 @@ import (
 	"os"
 	"water-tracker/data"
 	"water-tracker/draw"
-
 )
 
 func main() {
@@ -14,19 +13,21 @@ func main() {
 		panic(err)
 	}
 	defer file.Close()
-
 	log.SetOutput(file)
 
 	err = data.LoadData("10_24_chart.csv")
 	if err != nil {
 		log.Fatalf("Error loading data: %v", err)
 	}
-    data.ConsolidateRecords(data.Data, []string{"Source", "Use"})
-	catsLevels, err := data.GetLevels()
+	nodeCols := []string{"Source", "Use"}
+	volumes := "gals"
+	data.ConsolidateRecords(data.Data, nodeCols)
+
+	catsLevels, err := data.GetLevels(nodeCols)
 	if err != nil {
 		log.Fatalf("Error getting levels: %v", err)
 	}
-	flows, err := data.GetFlows()
+	flows, err := data.GetFlows(nodeCols, volumes)
 	if err != nil {
 		log.Fatalf("Error getting flows: %v", err)
 	}

@@ -3,6 +3,7 @@ package data
 import (
 	"encoding/csv"
 	"os"
+	"sort"
 	"strconv"
 )
 
@@ -93,41 +94,39 @@ func createNodes(grouped map[string]float64, level int) []Node {
 	return nodes
 }
 
-func GetLevels() ([]CategoryLevel, error) {
+func GetLevels(nodeCols []string) ([]CategoryLevel, error) {
 	levels := make([]CategoryLevel, 0)
-
-	grouped := groupByColumn(Data, "Source")
-	nodes := createNodes(grouped, 0)
-	levels = append(levels, *NewCategoryLevel(0))
-	for _, node := range nodes {
-		levels[len(levels)-1].AddNode(node)
+	for i := range nodeCols {
+		grouped := groupByColumn(Data, nodeCols[i])
+		nodes := createNodes(grouped, i)
+		levels = append(levels, *NewCategoryLevel(i))
+		for _, node := range nodes {
+			levels[i].AddNode(node)
+		}
 	}
-
-	grouped = groupByColumn(Data, "Use")
-	nodes = createNodes(grouped, 1)
-	levels = append(levels, *NewCategoryLevel(1))
-	for _, node := range nodes {
-		levels[len(levels)-1].AddNode(node)
-	}
-
 	return levels, nil
 }
 
-func GetFlows() ([]Flow, error) {
+func GetFlows(nodeCols []string, val string) ([]Flow, error) {
 	var flows []Flow
-	for _, record := range Data {
-		source := record["Source"]
-		target := record["Use"]
-		value, err := strconv.ParseFloat(record["gals"], 64)
-		if err != nil {
-			continue
+	for i := 0; i < len(nodeCols)-1; i++ {
+		for _, record := range Data {
+			source := record[nodeCols[i]]
+			target := record[nodeCols[i+1]]
+			value, err := strconv.ParseFloat(record[val], 64)
+			if err != nil {
+				continue
+			}
+			flow := Flow{
+				Source: source,
+				Target: target,
+				Value:  value,
+			}
+			flows = append(flows, flow)
 		}
-		flow := Flow{
-			Source: source,
-			Target: target,
-			Value:  value,
-		}
-		flows = append(flows, flow)
 	}
+	sort.Slice(flows, func(i, j int) bool {
+		return flows[i].Value > flows[j].Value
+	})
 	return flows, nil
 }

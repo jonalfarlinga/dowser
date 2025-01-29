@@ -13,7 +13,7 @@ func DrawChart(flows []data.Flow, nodes []data.Node) string {
 	flowPaths := getFlowsPaths(flows)
 	for i := range flowPaths {
 		components += fmt.Sprintf(
-			"<path d=\"%s\" fill=\"%s\" fill-opacity=\"0.5\" />\n",
+			"<path d=\"%s\" fill=\"%s\" fill-opacity=\"0.25\" stroke-width=\"2\" />\n",
 			flowPaths[i], getFlowColor(flowPaths[i]),
 		)
 	}
@@ -50,9 +50,9 @@ func getFlowColor(path string) string {
 	factor := y * 100 / settings.CHART_HEIGHT
 	return fmt.Sprintf(
 		"#%02x%02x%02x",
+		factor*3/4,
 		factor,
-		factor*2,
-		180)
+		80)
 }
 
 func getNodeColor(path string) string {
