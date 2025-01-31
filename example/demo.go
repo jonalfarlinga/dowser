@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-    // log file setup
+	// log file setup
 	file, err := os.OpenFile("output.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
 		panic(err)
@@ -16,7 +16,7 @@ func main() {
 	defer file.Close()
 	log.SetOutput(file)
 
-    // get data
+	// get data
 	nodeCols := []string{"Source", "Use"}
 	volumes := "gals"
 	filepath := "10_24_chart.csv"
@@ -25,7 +25,7 @@ func main() {
 		log.Fatalf("Error loading data: %v", err)
 	}
 	data.ConsolidateRecords(nodeCols, volumes)
-    nodes, err := data.GetNodes(nodeCols, volumes)
+	nodes, err := data.GetNodes(nodeCols, volumes)
 	if err != nil {
 		log.Fatalf("Error getting nodes: %v", err)
 	}
@@ -34,19 +34,19 @@ func main() {
 		log.Fatalf("Error getting flows: %v", err)
 	}
 
-    // set nodes and flows positions
-    data.Sort(nodes)
-    data.SetNodesPositions(nodes)
+	// set nodes and flows positions
+	data.SortNodes(nodes)
+	data.SetNodesPositions(nodes)
 	err = draw.SetFlowsPositions(flows, nodes)
 	if err != nil {
 		log.Fatalf("Error setting flows positions: %v", err)
 	}
 
-    // draw chart
+	// draw chart
 	output := draw.DrawChart(flows, nodes)
 	log.Println(output)
 
-    // output to file
+	// output to file
 	outputBytes := []byte(output)
 	err = os.WriteFile("output.svg", outputBytes, 0666)
 	if err != nil {
