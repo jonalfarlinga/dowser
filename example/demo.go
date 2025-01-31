@@ -36,7 +36,7 @@ func main() {
 
 	// set nodes and flows positions
 	data.SortNodes(nodes)
-	data.SetNodesPositions(nodes)
+	draw.SetNodesPositions(nodes)
 	err = draw.SetFlowsPositions(flows, nodes)
 	if err != nil {
 		log.Fatalf("Error setting flows positions: %v", err)

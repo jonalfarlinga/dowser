@@ -3,7 +3,6 @@ package data
 import (
 	"sort"
 	"strconv"
-	"water-tracker/settings"
 )
 
 func GetFlows(nodeCols []string, volumes string) ([]Flow, error) {
@@ -63,42 +62,4 @@ func SortNodes(nodes []*Node) {
 			}
 		}
 	}
-}
-
-func SetNodesPositions(nodes []*Node) {
-	levels := numberOfLevels(nodes)
-	levelIntervalX := (settings.CHART_WIDTH / (levels - 1)) - settings.NODE_WIDTH
-	totalVolumes := make(map[int]float64)
-	catLevels := make(map[int][]*Node, levels)
-	for i := range nodes {
-		if catLevels[i] == nil {
-			catLevels[i] = make([]*Node, 0)
-		}
-		totalVolumes[nodes[i].Level] += nodes[i].TotalFlow
-		catLevels[nodes[i].Level] = append(catLevels[nodes[i].Level], nodes[i])
-	}
-	for i := range catLevels {
-		levelX := levelIntervalX * i
-		levelYscalar := float64(settings.CHART_HEIGHT) / totalVolumes[nodes[i].Level]
-		setLevelNodesPositions(catLevels[i], levelX, levelYscalar)
-	}
-}
-
-func setLevelNodesPositions(nodes []*Node, levelX int, levelYscalar float64) {
-	lastY := 0
-	for i := range nodes {
-		y := lastY
-		nodes[i].SetPosition(levelX, y)
-		height := int(nodes[i].TotalFlow * levelYscalar)
-		nodes[i].SetHeight(height)
-		lastY += height
-	}
-}
-
-func numberOfLevels(nodes []*Node) int {
-	levels := make(map[int]bool)
-	for i := range nodes {
-		levels[nodes[i].Level] = true
-	}
-	return len(levels)
 }
