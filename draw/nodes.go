@@ -18,7 +18,7 @@ type Label struct {
 	text         string
 }
 
-func getNodesPaths(nodes []data.Node) []string {
+func getNodesPaths(nodes []*data.Node) []string {
 	n := make([]string, 0)
 
 	for i := range nodes {
@@ -39,7 +39,7 @@ func getNodesPaths(nodes []data.Node) []string {
 	return n
 }
 
-func getNodesLabels(nodes []data.Node) string {
+func getNodesLabels(nodes []*data.Node) string {
 	labels := make([]Label, 0)
 	for i := range nodes {
 		midY := nodes[i].GetPosition().Y + nodes[i].GetHeight()/2

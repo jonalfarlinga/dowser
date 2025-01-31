@@ -8,7 +8,7 @@ import (
 	"water-tracker/settings"
 )
 
-func DrawChart(flows []data.Flow, nodes []data.Node) string {
+func DrawChart(flows []data.Flow, nodes []*data.Node) string {
 	components := ""
 	flowPaths := getFlowsPaths(flows)
 	for i := range flowPaths {

@@ -6,7 +6,7 @@ import (
 	"water-tracker/settings"
 )
 
-func SetFlowsPositions(flows []data.Flow, nodes []data.Node) error {
+func SetFlowsPositions(flows []data.Flow, nodes []*data.Node) error {
 	err := fmt.Errorf("Must SetNodePositions before SetFlowsPositions")
 	for i := range nodes {
 		if nodes[i].GetPosition().Y != 0 {

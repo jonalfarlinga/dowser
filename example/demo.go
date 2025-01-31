@@ -16,7 +16,7 @@ func main() {
 	defer file.Close()
 	log.SetOutput(file)
 
-    // data setup
+    // get data
 	nodeCols := []string{"Source", "Use"}
 	volumes := "gals"
 	filepath := "10_24_chart.csv"
@@ -25,24 +25,18 @@ func main() {
 		log.Fatalf("Error loading data: %v", err)
 	}
 	data.ConsolidateRecords(nodeCols, volumes)
-	catsLevels, err := data.GetLevels(nodeCols, volumes)
+    nodes, err := data.GetNodes(nodeCols, volumes)
 	if err != nil {
-		log.Fatalf("Error getting levels: %v", err)
+		log.Fatalf("Error getting nodes: %v", err)
 	}
 	flows, err := data.GetFlows(nodeCols, volumes)
 	if err != nil {
 		log.Fatalf("Error getting flows: %v", err)
 	}
 
-    // setup positions
-    for _, level := range catsLevels {
-		level.Sort()
-		level.SetNodePositions(len(catsLevels))
-	}
-	nodes := make([]data.Node, 0)
-	for _, level := range catsLevels {
-		nodes = append(nodes, level.Nodes...)
-	}
+    // set nodes and flows positions
+    data.Sort(nodes)
+    data.SetNodesPositions(nodes)
 	err = draw.SetFlowsPositions(flows, nodes)
 	if err != nil {
 		log.Fatalf("Error setting flows positions: %v", err)
@@ -51,7 +45,7 @@ func main() {
     // draw chart
 	output := draw.DrawChart(flows, nodes)
 	log.Println(output)
-    
+
     // output to file
 	outputBytes := []byte(output)
 	err = os.WriteFile("output.svg", outputBytes, 0666)

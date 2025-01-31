@@ -12,18 +12,18 @@
 <path d="M 50,797 C 500,797 500,796 950,796 L 950,798 C 500,798 500,799 50,799 Z" fill="#4a6350" fill-opacity="0.25" stroke-width="2" />
 <path d="M 50,797 C 500,797 500,796 950,796 L 950,798 C 500,798 500,799 50,799 Z" fill="#4a6350" fill-opacity="0.25" stroke-width="2" />
 <path d="M 0,0 L 0,613 L 50,613 L 50,0 Z" fill="#0000fa" fill-opacity="1.0" />
-<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#4c98fa" fill-opacity="1.0" />
-<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#5dbafa" fill-opacity="1.0" />
-<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#62c4fa" fill-opacity="1.0" />
-<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#63c6fa" fill-opacity="1.0" />
-<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#63c6fa" fill-opacity="1.0" />
-<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#63c6fa" fill-opacity="1.0" />
-<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#63c6fa" fill-opacity="1.0" />
 <path d="M 950,0 L 950,318 L 1000,318 L 1000,0 Z" fill="#0000fa" fill-opacity="1.0" />
 <path d="M 950,318 L 950,567 L 1000,567 L 1000,318 Z" fill="#274efa" fill-opacity="1.0" />
 <path d="M 950,567 L 950,781 L 1000,781 L 1000,567 Z" fill="#468cfa" fill-opacity="1.0" />
+<path d="M 0,613 L 0,747 L 50,747 L 50,613 Z" fill="#4c98fa" fill-opacity="1.0" />
+<path d="M 0,747 L 0,786 L 50,786 L 50,747 Z" fill="#5dbafa" fill-opacity="1.0" />
 <path d="M 950,781 L 950,797 L 1000,797 L 1000,781 Z" fill="#61c2fa" fill-opacity="1.0" />
+<path d="M 0,786 L 0,798 L 50,798 L 50,786 Z" fill="#62c4fa" fill-opacity="1.0" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#63c6fa" fill-opacity="1.0" />
 <path d="M 950,797 L 950,797 L 1000,797 L 1000,797 Z" fill="#63c6fa" fill-opacity="1.0" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#63c6fa" fill-opacity="1.0" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#63c6fa" fill-opacity="1.0" />
+<path d="M 0,798 L 0,798 L 50,798 L 50,798 Z" fill="#63c6fa" fill-opacity="1.0" />
 <text x="887" y="159" font-size="12">Utilities</text>
 <text x="50" y="306" font-size="12">Jackson</text>
 <text x="880" y="442" font-size="12">Irrigation</text>
@@ -33,10 +33,10 @@
 <text x="862" y="785" font-size="12">Unmetered</text>
 <text x="100" y="755" font-size="12">River Water</text>
 <text x="869" y="795" font-size="12">Spillage</text>
-<text x="100" y="765" font-size="12">Boiler Plant</text>
-<text x="100" y="775" font-size="12">Grady Early</text>
-<text x="100" y="785" font-size="12">Print Shop</text>
-<text x="100" y="795" font-size="12">Freeman Ranch</text>
+<text x="100" y="765" font-size="12">Freeman Ranch</text>
+<text x="100" y="775" font-size="12">Print Shop</text>
+<text x="100" y="785" font-size="12">Grady Early</text>
+<text x="100" y="795" font-size="12">Boiler Plant</text>
 <line x1="100" y1="740" x2="50" y2="766" stroke="black" />
 <line x1="920" y1="780" x2="950" y2="789" stroke="black" />
 <line x1="100" y1="750" x2="50" y2="792" stroke="black" />

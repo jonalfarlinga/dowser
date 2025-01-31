@@ -35,19 +35,19 @@ func (f *Flow) SetPoint(p, x, y int) {
 	}
 }
 
-func (f *Flow) GetSource(nodes []Node) *Node {
+func (f *Flow) GetSource(nodes []*Node) *Node {
 	for i := range nodes {
 		if nodes[i].Label == f.Source {
-			return &nodes[i]
+			return nodes[i]
 		}
 	}
 	return nil
 }
 
-func (f *Flow) GetTarget(nodes []Node) *Node {
+func (f *Flow) GetTarget(nodes []*Node) *Node {
 	for i := range nodes {
 		if nodes[i].Label == f.Target {
-			return &nodes[i]
+			return nodes[i]
 		}
 	}
 	return nil
