@@ -39,9 +39,9 @@ func LoadData(filePath string) error {
 	return nil
 }
 
-func ConsolidateRecords(records []map[string]string, columns []string) []map[string]string {
+func ConsolidateRecords(columns []string, volumes string) []map[string]string {
 	consolidated := make(map[string]map[string]string)
-	for _, record := range records {
+	for _, record := range Data {
 		key := ""
 		for _, column := range columns {
 			key += record[column] + "|"
@@ -52,15 +52,15 @@ func ConsolidateRecords(records []map[string]string, columns []string) []map[str
 				consolidated[key][k] = v
 			}
 		} else {
-			value, err := strconv.ParseFloat(record["gals"], 64)
+			value, err := strconv.ParseFloat(record[volumes], 64)
 			if err != nil {
 				continue
 			}
-			existingValue, err := strconv.ParseFloat(consolidated[key]["gals"], 64)
+			existingValue, err := strconv.ParseFloat(consolidated[key][volumes], 64)
 			if err != nil {
 				continue
 			}
-			consolidated[key]["gals"] = strconv.FormatFloat(existingValue+value, 'f', -1, 64)
+			consolidated[key][volumes] = strconv.FormatFloat(existingValue+value, 'f', -1, 64)
 		}
 	}
 
@@ -72,11 +72,11 @@ func ConsolidateRecords(records []map[string]string, columns []string) []map[str
 	return result
 }
 
-func groupByColumn(records []map[string]string, columnName string) map[string]float64 {
+func groupByColumn(records []map[string]string, columnName string, volumes string) map[string]float64 {
 	grouped := make(map[string]float64)
 	for _, record := range records {
 		key := record[columnName]
-		value, err := strconv.ParseFloat(record["gals"], 64)
+		value, err := strconv.ParseFloat(record[volumes], 64)
 		if err != nil {
 			continue
 		}
@@ -94,10 +94,10 @@ func createNodes(grouped map[string]float64, level int) []Node {
 	return nodes
 }
 
-func GetLevels(nodeCols []string) ([]CategoryLevel, error) {
+func GetLevels(nodeCols []string, volumes string) ([]CategoryLevel, error) {
 	levels := make([]CategoryLevel, 0)
 	for i := range nodeCols {
-		grouped := groupByColumn(Data, nodeCols[i])
+		grouped := groupByColumn(Data, nodeCols[i], volumes)
 		nodes := createNodes(grouped, i)
 		levels = append(levels, *NewCategoryLevel(i))
 		for _, node := range nodes {
@@ -107,13 +107,13 @@ func GetLevels(nodeCols []string) ([]CategoryLevel, error) {
 	return levels, nil
 }
 
-func GetFlows(nodeCols []string, val string) ([]Flow, error) {
+func GetFlows(nodeCols []string, volumes string) ([]Flow, error) {
 	var flows []Flow
 	for i := 0; i < len(nodeCols)-1; i++ {
 		for _, record := range Data {
 			source := record[nodeCols[i]]
 			target := record[nodeCols[i+1]]
-			value, err := strconv.ParseFloat(record[val], 64)
+			value, err := strconv.ParseFloat(record[volumes], 64)
 			if err != nil {
 				continue
 			}
