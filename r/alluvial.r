@@ -27,13 +27,13 @@ p <- ggplot(data,
                 axis2 = Use,
                 axis3 = Building,
                 y = gals)) +
-     geom_alluvium(aes(fill = Source), width = 1/12) +
-     geom_stratum(width = 1/12, fill = "grey", color = "black") +
+    geom_alluvium(aes(fill = Source), width = 1/12) +
+    geom_stratum(width = 1/12, fill = "grey", color = "black") +
     #  geom_text(stat = "stratum", aes(label = after_stat(stratum)), size = 3) +
-     scale_x_discrete(limits = c("Source", "Use", "Building"), expand = c(.05, .05)) +
-     theme_minimal() +
-     ggtitle("Water Flow from Sources to Uses to Buildings") +
-     theme(plot.title = element_text(hjust = 0.5))
+    scale_x_discrete(limits = c("Source", "Use", "Building"), expand = c(.05, .05)) +
+    theme_minimal() +
+    ggtitle("Water Flow from Sources to Uses to Buildings") +
+    theme(plot.title = element_text(hjust = 0.5))
 
 # Add non-overlapping labels using geom_text_repel with stat = "stratum"
 p <- p + geom_text_repel(
