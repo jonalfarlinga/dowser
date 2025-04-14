@@ -1,4 +1,4 @@
-package main
+package dowser
 
 import (
 	"dowser/data"
@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func main() {
+func makeGraph(nodeCols []string, volumes string) {
 	// log file setup
 	file, err := os.OpenFile("output.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
@@ -17,8 +17,6 @@ func main() {
 	log.SetOutput(file)
 
 	// get data
-	nodeCols := []string{"Source", "Use"}
-	volumes := "gals"
 	filepath := "10_24_chart.csv"
 	err = data.LoadDataFromCSV(filepath)
 	if err != nil {

@@ -1,7 +1,7 @@
 package data
 
 import (
-	"water-tracker/settings"
+	"dowser/settings"
 )
 
 type Node struct {

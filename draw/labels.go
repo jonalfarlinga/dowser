@@ -1,11 +1,11 @@
 package draw
 
 import (
+	"dowser/data"
+	"dowser/settings"
 	"fmt"
 	"log"
 	"sort"
-	"water-tracker/data"
-	"water-tracker/settings"
 
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/basicfont"

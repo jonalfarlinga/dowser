@@ -1,11 +1,11 @@
 package draw
 
 import (
+	"dowser/data"
+	"dowser/settings"
 	"fmt"
 	"strconv"
 	"strings"
-	"water-tracker/data"
-	"water-tracker/settings"
 )
 
 func DrawChart(flows []data.Flow, nodes []*data.Node) string {

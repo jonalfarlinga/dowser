@@ -9,7 +9,7 @@ import (
 // load data from test_data.csv
 var Data []map[string]string
 
-func LoadData(filePath string) error {
+func LoadDataFromCSV(filePath string) error {
 	file, err := os.Open(filePath)
 	if err != nil {
 		return err

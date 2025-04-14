@@ -1,9 +1,9 @@
 package draw
 
 import (
+	"dowser/data"
+	"dowser/settings"
 	"fmt"
-	"water-tracker/data"
-	"water-tracker/settings"
 )
 
 func SetFlowsPositions(flows []data.Flow, nodes []*data.Node) error {
