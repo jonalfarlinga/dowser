@@ -9,7 +9,7 @@ import (
 // load data from test_data.csv
 var Data []map[string]string
 
-func LoadDataFromCSV(filePath string) error {
+func LoadDataFromCSV(filePath, volumes string) error {
 	file, err := os.Open(filePath)
 	if err != nil {
 		return err
@@ -29,6 +29,9 @@ func LoadDataFromCSV(filePath string) error {
 			break
 		}
 		row := make(map[string]string)
+		if row[volumes] == "" || row[volumes] == "0" {
+			continue
+		}
 		for i, header := range headers {
 			row[header] = record[i]
 		}
@@ -40,6 +43,7 @@ func LoadDataFromCSV(filePath string) error {
 
 func ConsolidateRecords(columns []string, volumes string) []map[string]string {
 	consolidated := make(map[string]map[string]string)
+
 	for _, record := range Data {
 		key := ""
 		for _, column := range columns {

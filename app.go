@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func makeGraph(nodeCols []string, volumes string) {
+func MakeGraph(nodeCols []string, volumes string) []byte{
 	// log file setup
 	file, err := os.OpenFile("output.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
@@ -18,7 +18,7 @@ func makeGraph(nodeCols []string, volumes string) {
 
 	// get data
 	filepath := "10_24_chart.csv"
-	err = data.LoadDataFromCSV(filepath)
+	err = data.LoadDataFromCSV(filepath, volumes)
 	if err != nil {
 		log.Fatalf("Error loading data: %v", err)
 	}
@@ -42,12 +42,7 @@ func makeGraph(nodeCols []string, volumes string) {
 
 	// draw chart
 	output := draw.DrawChart(flows, nodes)
-	log.Println(output)
 
-	// output to file
-	outputBytes := []byte(output)
-	err = os.WriteFile("output.svg", outputBytes, 0666)
-	if err != nil {
-		log.Fatalf("Error writing output file: %v", err)
-	}
+	// return svg
+	return []byte(output)
 }

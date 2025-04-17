@@ -17,10 +17,10 @@ func main() {
 	log.SetOutput(file)
 
 	// get data
-	nodeCols := []string{"Source", "Use"}
+	nodeCols := []string{"Source", "Building", "Use"}
 	volumes := "gals"
 	filepath := "10_24_chart.csv"
-	err = data.LoadDataFromCSV(filepath)
+	err = data.LoadDataFromCSV(filepath, volumes)
 	if err != nil {
 		log.Fatalf("Error loading data: %v", err)
 	}

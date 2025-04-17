@@ -41,9 +41,7 @@ func getNodesLabels(nodes []*data.Node) string {
 				text:       nodes[i].Label,
 			})
 	}
-
 	labels = checkTextOverlap(labels)
-	log.Printf("labels: %+v\n", labels)
 
 	text := ""
 	lines := ""
@@ -54,7 +52,6 @@ func getNodesLabels(nodes []*data.Node) string {
 			"<text x=\"%d\" y=\"%d\" font-size=\"12\">%s</text>\n",
 			labels[i].x, labels[i].y, labels[i].text,
 		)
-		log.Println(labels[i].text, labels[i].x, labels[i].y, labels[i].nodeX, labels[i].nodeY)
 	}
 	return text + lines
 }
@@ -87,11 +84,16 @@ func checkTextOverlap(labels []*Label) []*Label {
 	sort.Slice(labels, func(i, j int) bool {
 		return labels[i].y < labels[j].y
 	})
+	labelstr := ""
+	for i := 0; i < len(labels); i++ {
+		labelstr += fmt.Sprintf("%d %d %s\n", labels[i].x, labels[i].y, labels[i].text)
+	}
+
 	for adjusted {
 		adjusted = false
 		nextY := make(map[int]int)
 		for i := 0; i < len(labels); i++ {
-			if labels[i].y > settings.CHART_HEIGHT/2 {
+			if labels[i].y > settings.CHART_HEIGHT/2-10 {
 				continue
 			}
 			if labels[i].y < getY(nextY, labels[i].nodeX) {
@@ -102,7 +104,7 @@ func checkTextOverlap(labels []*Label) []*Label {
 		}
 		nextY = endY(nextY)
 		for i := len(labels) - 1; i >= 0; i-- {
-			if labels[i].y < settings.CHART_HEIGHT/2 {
+			if labels[i].y < settings.CHART_HEIGHT/2+10 {
 				continue
 			}
 			if labels[i].y > getY(nextY, labels[i].nodeX) {

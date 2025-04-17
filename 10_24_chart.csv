@@ -4,7 +4,7 @@ Jackson,0,Irrigation,Academic Support Cntr.
 City Water,0,Irrigation,Admissions
 Jackson,153500,Irrigation,Alkek 1
 Jackson,0,Irrigation,Alkek 2
-Jackson,310003.41,Domestic,Alkek Library
+Jackson,310003,Domestic,Alkek Library
 Jackson,4200,Irrigation,Alumni House
 Jackson,200,Irrigation,Applied Arts Lower
 Jackson,0,Irrigation,Applied Arts Upper
@@ -14,12 +14,12 @@ Jackson,39800,Irrigation,Aquatic Biology
 Jackson,0,Irrigation,Arnold Hall
 City Water,129893,Irrigation,Baseball
 Jackson,0,Irrigation,Berretta
-Jackson,320205.06,Domestic,Bexar Hall
+Jackson,320205,Domestic,Bexar Hall
 Jackson,0,Irrigation,Blanco
-Jackson,354037.84,Domestic,Blanco Hall A Wing
-Jackson,43570.71,Domestic,Blanco Hall B Wing
-Jackson,308445.56,Domestic,Blanco Hall C Wing
-Jackson,380022.81,Domestic,Bobcat North Complex
+Jackson,354037,Domestic,Blanco Hall A Wing
+Jackson,43570,Domestic,Blanco Hall B Wing
+Jackson,308445,Domestic,Blanco Hall C Wing
+Jackson,380022,Domestic,Bobcat North Complex
 City Water,10300,Irrigation,Bobcat Stadium
 City Water,2,Irrigation,Bobcat Vill. Mill St. Parking Lot
 City Water,0,Irrigation,Bobcat Village
@@ -43,20 +43,20 @@ City Water,0,Irrigation,DHRL
 Jackson,1101440,Utilities,East Plant
 Jackson,0,Domestic,Education
 Jackson,31600,Irrigation,Education
-Jackson,5228.29,Domestic,Edward Gary Parking Garage
-Jackson,224946.94,Domestic,Elliott Hall Administration
+Jackson,5228,Domestic,Edward Gary Parking Garage
+Jackson,224946,Domestic,Elliott Hall Administration
 Jackson,0,Domestic,Evans Auditorium
 Jackson,0,Domestic,Evans Liberal Arts
 Jackson,26022,Domestic,Falls and Sayers Halls (WCH)
-Jackson,78500,Irrigation,Family & Consumer Science
+Jackson,78500,Irrigation,Family and Consumer Science
 Jackson,60600,Irrigation,Flowers
-Jackson,44435.83,Domestic,Flowers Hall
-Jackson,282000,Domestic,Freedom Five & O'shea Halls (Previously Angelina & San Gabriel Halls) (MSH)
+Jackson,44435,Domestic,Flowers Hall
+Jackson,282000,Domestic,Freedom Five and O'shea Halls (Previously Angelina and San Gabriel Halls) (MSH)
 Freeman Ranch,11970,Domestic,Freeman Ranch
-Freeman Artesian,6716440.812,Irrigation,Freeman Research Lakes
-Jackson,437573.1,Domestic,Gaillardia & Chataqua Halls (NCH)
+Freeman Artesian,6716440,Irrigation,Freeman Research Lakes
+Jackson,437573,Domestic,Gaillardia and Chataqua Halls (NCH)
 Jackson,5400,Irrigation,Greenhouse
-Jackson,1578232.25,Domestic,Harris Dining Hall
+Jackson,1578232,Domestic,Harris Dining Hall
 Jackson,26200,Irrigation,Health Pro/LBJSC Garage
 Jackson,42700,Irrigation,Hill House Front
 Jackson,26700,Irrigation,Hill House Side
@@ -69,7 +69,7 @@ Jackson,95300,Irrigation,JC Kellam
 Jackson,53700,Irrigation,Jones
 Jackson,19000,Irrigation,Jowers/Coliseum/Sewell Park
 City Water,15061,Irrigation,Kirby Lane
-Jackson,335459.19,Domestic,Lantana Hall
+Jackson,335459,Domestic,Lantana Hall
 Jackson,1000,Irrigation,LBJSC
 Jackson,58300,Irrigation,Liberal Arts/Derrick
 City Water,0,Irrigation,Library Repository
@@ -79,7 +79,7 @@ Jackson,0,Domestic,Math Computer Science Building
 Jackson,0,Irrigation,Matthew St Garage
 Jackson,16200,Domestic,McCoy
 Jackson,66000,Irrigation,McCoy Business Building
-Jackson,368809.91,Domestic,Mesquite Hall (Previously Beretta)
+Jackson,368809,Domestic,Mesquite Hall (Previously Beretta)
 Jackson,70700,Domestic,Mitte Building
 Jackson,8300,Irrigation,Mitte Complex
 City Water,0,Irrigation,Moeller House
@@ -89,13 +89,13 @@ Jackson,228992,Irrigation,Moore/Holland St. Sidewalk
 Jackson,27700,Domestic,Music
 Jackson,0,Irrigation,Music/LBJ Loop
 Jackson,0,Irrigation,North Campus Housing Fill Line
-Jackson,41853.93,Domestic,Nursing Building (Round Rock)
+Jackson,41853,Domestic,Nursing Building (Round Rock)
 Jackson,49100,Irrigation,Old Main
-City Water,244274.244,Domestic,Other City-Served Meters
+City Water,244274,Domestic,Other City-Served Meters
 Jackson,0,Domestic,Pecan (UPD) Building
 Jackson,9900,Irrigation,Pedernales/Pecos
 Jackson,227000,Irrigation,Performing Arts
-Jackson,199948.06,Domestic,Performing Arts Center
+Jackson,199948,Domestic,Performing Arts Center
 City Water,47200,Irrigation,Physical Plant
 Jackson,184000,Irrigation,Rec Sports
 Jackson,26400,Irrigation,Retama
@@ -113,16 +113,16 @@ Jackson,5964094,Utilities,South Plant
 Jackson,0,Irrigation,Speck St.Garage
 City Water,3,Irrigation,STAR Park
 Jackson,2500,Irrigation,State Street
-Jackson,407926.53,Domestic,Sterry Hall
+Jackson,407926,Domestic,Sterry Hall
 Jackson,66600,Irrigation,Student Health Center
 Jackson,2056160,Domestic,Student Recreation Center
 Jackson,0,Irrigation,Supple Science
-Jackson,85362.27,Domestic,Supple Science Center
+Jackson,85362,Domestic,Supple Science Center
 Jackson,0,Irrigation,Taylor Murphy
 City Water,0,Irrigation,Tennis Courts
 City Water,0,Irrigation,Tennis Netafim
 City Water,0,Irrigation,The Meadows
-Jackson,6448.27,Domestic,Theater
+Jackson,6448,Domestic,Theater
 City Water,11600,Irrigation,Thornton House
 Jackson,88200,Irrigation,Tomas Rivera
 City Water,414490,Irrigation,Track Field
@@ -131,7 +131,7 @@ Jackson,82400,Irrigation,UAC
 City Water,15300,Irrigation,UDC
 City Water,431765,Irrigation,UEC
 Jackson,42900,Irrigation,University Residence
-Jackson,840660.04,Unmetered,Unmetered Use
+Jackson,840660,Unmetered,Unmetered Use
 Jackson,0,Irrigation,WCH Fill line
 Jackson,605700,Irrigation,West Campus Soccer Field
 Jackson,0,Irrigation,West Park

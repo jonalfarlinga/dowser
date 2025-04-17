@@ -1,6 +1,7 @@
 package main
 
 import (
+	"dowser/api/handlers"
 	"log"
 	"net/http"
 
@@ -10,6 +11,7 @@ import (
 func main() {
 	mux := http.NewServeMux()
 	handler := corsSetup(mux)
+	handlers.GetGraph(mux)
 
 	log.Println("Starting API Server on port 8080...")
 	err := http.ListenAndServe(":8080", handler)

@@ -7,7 +7,8 @@ import (
 )
 
 func SetFlowsPositions(flows []data.Flow, nodes []*data.Node) error {
-	err := fmt.Errorf("Must SetNodePositions before SetFlowsPositions")
+	// if ANY node has a Y position, then we can set flows positions
+	err := fmt.Errorf("must SetNodePositions before SetFlowsPositions")
 	for i := range nodes {
 		if nodes[i].GetPosition().Y != 0 {
 			err = nil
